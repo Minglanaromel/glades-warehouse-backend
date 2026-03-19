@@ -1,0 +1,81 @@
+{
+  "Machine Status": [
+    {
+      "plant": "P1",
+      "process": "Thermo",
+      "machine": "KMD1",
+      "status": "Running/Operating",
+      "operator": "Eric Abes",
+      "remarks": "Running",
+      "efficiency": 95
+    },
+    {
+      "plant": "P1",
+      "process": "Thermo",
+      "machine": "KMD2",
+      "status": "Idle / Waiting",
+      "operator": "Mary Rose Albia",
+      "remarks": "Waiting for inspector",
+      "efficiency": 0
+    },
+    {
+      "plant": "P1",
+      "process": "Printing",
+      "machine": "Vandam1",
+      "status": "Breakdown",
+      "operator": "Jeanny Medalla",
+      "remarks": "Corona Treater replacement",
+      "efficiency": 0
+    }
+  ],
+  "Downtime": [
+    {
+      "plant": "P1",
+      "machine": "IM17",
+      "startTime": "08:00",
+      "duration": "7 hrs",
+      "operator": "Andro Basbas",
+      "reason": "Wornout toggle pin and linear bearing",
+      "status": "Under Maintenance"
+    },
+    {
+      "plant": "P2",
+      "machine": "PCM11",
+      "startTime": "10:00",
+      "duration": "2 hrs",
+      "operator": "Jerry Calaluan",
+      "reason": "Cam follower bearing worn out",
+      "status": "Not running"
+    }
+  ],
+  "Attendance": [
+    {
+      "shift": "A",
+      "department": "Extrusion",
+      "planned": 2,
+      "actual": 2
+    },
+    {
+      "shift": "A",
+      "department": "Thermo",
+      "planned": 15,
+      "actual": 15
+    },
+    {
+      "shift": "B",
+      "department": "Extrusion",
+      "planned": 2,
+      "actual": 1
+    }
+  ],
+  "Capacity Utilization": [
+    {
+      "plant": "PLANT 1",
+      "machine": "kmd1",
+      "productDesc": "Lids",
+      "dailyCap": 1000,
+      "machineUtil": { "oct": 0.85 },
+      "totalVolume": 850
+    }
+  ]
+}
