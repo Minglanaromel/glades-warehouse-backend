@@ -1,0 +1,16 @@
+[
+  {
+    "id": 3,
+    "name": "minglanarome",
+    "email": "minglanara574@gmail.com",
+    "password": "$2a$10$2GRPFTItsR8UUUhX30R7JOjpoNgrrwtG8EFT3d3pJRweukT/6/fhS",
+    "role": "manager",
+    "department": "IT",
+    "plant": "Both",
+    "employeeId": "GLD-1774000463491",
+    "phone": "",
+    "isActive": true,
+    "createdAt": "2026-03-20T09:54:23.491Z",
+    "updatedAt": "2026-03-20T09:54:23.491Z"
+  }
+]

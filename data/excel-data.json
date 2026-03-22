@@ -5140,9 +5140,9 @@
   ],
   "Downtime Monitoring": [
     {
-      "Start Downtime": 0.291666666666667,
+      "Start Downtime": 0.2916666666666667,
       "End Downtime": 0.375,
-      "Duration": "2 hr 0 mins"
+      "Duration": "2 hr 60 mins"
     },
     {
       "Duration": "0 mins"
@@ -5257,9 +5257,9 @@
     },
     {
       "PLANT 1": "MACHINE",
-      "3/19/26 15:45": "Item Desc.",
-      "__EMPTY_1": 0.291666666666667,
-      "__EMPTY_2": 0.333333333333333,
+      "3/3/26 13:48": "Item Desc.",
+      "__EMPTY_1": 0.2916666666666667,
+      "__EMPTY_2": 0.3333333333333333,
       "__EMPTY_3": 0.375,
       "__EMPTY_4": 0.416666666666667,
       "__EMPTY_5": 0.458333333333334,
@@ -5274,7 +5274,7 @@
       "__EMPTY_14": 0.833333333333333,
       "__EMPTY_15": 0.875,
       "__EMPTY_16": 0.916666666666666,
-      "__EMPTY_17": 0.958333333333333,
+      "__EMPTY_17": 0.9583333333333334,
       "__EMPTY_18": 1,
       "__EMPTY_19": 1.04166666666667,
       "__EMPTY_20": 1.08333333333333,
@@ -5290,7 +5290,7 @@
     },
     {
       "PLANT 1": "KMD1",
-      "3/19/26 15:45": "Chowking 12 oz flat Lid PPC",
+      "3/3/26 13:48": "Chowking 12 oz flat Lid PPC",
       "__EMPTY": "Actual",
       "__EMPTY_25": 0,
       "__EMPTY_26": 0,
@@ -5308,7 +5308,7 @@
     },
     {
       "PLANT 1": "KMD2",
-      "3/19/26 15:45": "1oz tub MCD PPC",
+      "3/3/26 13:48": "1oz tub MCD PPC",
       "__EMPTY": "Actual",
       "__EMPTY_1": 55000,
       "__EMPTY_2": 65000,
@@ -5359,7 +5359,7 @@
     },
     {
       "PLANT 1": "KMD3",
-      "3/19/26 15:45": "1oz LID MCD PPC",
+      "3/3/26 13:48": "1oz LID MCD PPC",
       "__EMPTY": "Actual",
       "__EMPTY_1": 30000,
       "__EMPTY_2": 30000,
@@ -5373,7 +5373,7 @@
       "__EMPTY_26": 260000,
       "__EMPTY_27": 0,
       "__EMPTY_28": 260000,
-      "__EMPTY_29": 0.173333333333333,
+      "__EMPTY_29": 0.17333333333333334,
       "__EMPTY_32": 260000
     },
     {
@@ -5410,7 +5410,7 @@
     },
     {
       "PLANT 1": "KMD4",
-      "3/19/26 15:45": "16/22oz sip lid rpet",
+      "3/3/26 13:48": "16/22oz sip lid rpet",
       "__EMPTY": "Actual",
       "__EMPTY_5": 36000,
       "__EMPTY_6": 36000,
@@ -5420,7 +5420,7 @@
       "__EMPTY_26": 138000,
       "__EMPTY_27": 0,
       "__EMPTY_28": 138000,
-      "__EMPTY_29": 0.353846153846154,
+      "__EMPTY_29": 0.35384615384615387,
       "__EMPTY_32": 138000
     },
     {
@@ -5446,7 +5446,7 @@
     },
     {
       "PLANT 1": "70K1",
-      "3/19/26 15:45": "NO PLAN",
+      "3/3/26 13:48": "NO PLAN",
       "__EMPTY": "Actual"
     },
     {
@@ -5454,7 +5454,7 @@
     },
     {
       "PLANT 1": "70K2",
-      "3/19/26 15:45": "16oz Float SFG PPC",
+      "3/3/26 13:48": "16oz Float SFG PPC",
       "__EMPTY": "Actual",
       "__EMPTY_1": 6300,
       "__EMPTY_2": 6300,
@@ -5463,7 +5463,7 @@
       "__EMPTY_26": 18200,
       "__EMPTY_27": 0,
       "__EMPTY_28": 18200,
-      "__EMPTY_29": 0.115555555555556,
+      "__EMPTY_29": 0.11555555555555555,
       "__EMPTY_32": 18200
     },
     {
@@ -5500,7 +5500,7 @@
     },
     {
       "PLANT 1": "70K3",
-      "3/19/26 15:45": "jfc 3 OZ cUP ppc",
+      "3/3/26 13:48": "jfc 3 OZ cUP ppc",
       "__EMPTY": "Actual",
       "__EMPTY_6": 8000,
       "__EMPTY_7": 8000,
@@ -5509,7 +5509,7 @@
       "__EMPTY_26": 24000,
       "__EMPTY_27": 0,
       "__EMPTY_28": 24000,
-      "__EMPTY_29": 0.363636363636364,
+      "__EMPTY_29": 0.36363636363636365,
       "__EMPTY_32": 24000
     },
     {
@@ -5533,7 +5533,7 @@
     },
     {
       "PLANT 1": "70K5",
-      "3/19/26 15:45": "ANZ Large SFG",
+      "3/3/26 13:48": "ANZ Large SFG",
       "__EMPTY": "Actual",
       "__EMPTY_25": 0,
       "__EMPTY_26": 0,
@@ -5551,7 +5551,7 @@
     },
     {
       "PLANT 1": "R8",
-      "3/19/26 15:45": "16oz Dome Lid Jfc",
+      "3/3/26 13:48": "16oz Dome Lid Jfc",
       "__EMPTY": "Actual",
       "__EMPTY_25": 0,
       "__EMPTY_26": 0,
@@ -5570,7 +5570,7 @@
     },
     {
       "PLANT 1": "R14",
-      "3/19/26 15:45": "NO PLAN",
+      "3/3/26 13:48": "NO PLAN",
       "__EMPTY": "Actual",
       "__EMPTY_21": " ",
       "__EMPTY_25": 0,
@@ -5589,11 +5589,11 @@
     },
     {
       "PLANT 1": "R16",
-      "3/19/26 15:45": "NO PLAN"
+      "3/3/26 13:48": "NO PLAN"
     },
     {
       "PLANT 1": "R22",
-      "3/19/26 15:45": "NO PLAN",
+      "3/3/26 13:48": "NO PLAN",
       "__EMPTY": "Actual",
       "__EMPTY_25": 0,
       "__EMPTY_26": 0,
@@ -5628,10 +5628,10 @@
     },
     {
       "__EMPTY_24": "Hit %",
-      "__EMPTY_25": 0.711607142857143,
-      "__EMPTY_26": 0.523563218390805,
+      "__EMPTY_25": 0.7116071428571429,
+      "__EMPTY_26": 0.5235632183908046,
       "__EMPTY_27": 0,
-      "__EMPTY_28": 0.268731563421829,
+      "__EMPTY_28": 0.2687315634218289,
       "__EMPTY_32": 0
     },
     {
@@ -5642,7 +5642,7 @@
     },
     {
       "PLANT 1": "R22",
-      "3/19/26 15:45": "6oz. DEI Cup PSW",
+      "3/3/26 13:48": "6oz. DEI Cup PSW",
       "__EMPTY": "Actual",
       "__EMPTY_25": 0,
       "__EMPTY_26": 0,
@@ -5661,7 +5661,7 @@
     },
     {
       "PLANT 1": "ICM7",
-      "3/19/26 15:45": "Da Vinci Tray PPC",
+      "3/3/26 13:48": "Da Vinci Tray PPC",
       "__EMPTY_25": 0,
       "__EMPTY_26": 0,
       "__EMPTY_27": 0,
@@ -5678,7 +5678,7 @@
     },
     {
       "PLANT 1": "G6310",
-      "3/19/26 15:45": "12oz.Dome Lid MPI PPC",
+      "3/3/26 13:48": "12oz.Dome Lid MPI PPC",
       "__EMPTY": "Actual",
       "__EMPTY_25": 0,
       "__EMPTY_26": 0,
@@ -5696,7 +5696,7 @@
     },
     {
       "PLANT 1": "R8",
-      "3/19/26 15:45": "500g Lid PSRB",
+      "3/3/26 13:48": "500g Lid PSRB",
       "__EMPTY": "Actual",
       "__EMPTY_25": 0,
       "__EMPTY_26": 0,
@@ -5714,7 +5714,7 @@
     },
     {
       "PLANT 1": "ICM3",
-      "3/19/26 15:45": "0.5oz Mcdo Container",
+      "3/3/26 13:48": "0.5oz Mcdo Container",
       "__EMPTY": "Actual",
       "__EMPTY_25": 0,
       "__EMPTY_26": 0,
@@ -5732,7 +5732,7 @@
     },
     {
       "PLANT 1": "ICM4",
-      "3/19/26 15:45": "2.5oz Tub PsW MKT",
+      "3/3/26 13:48": "2.5oz Tub PsW MKT",
       "__EMPTY": "Actual",
       "__EMPTY_1": 4000,
       "__EMPTY_2": 4000,
@@ -5743,7 +5743,7 @@
       "__EMPTY_26": 20000,
       "__EMPTY_27": 0,
       "__EMPTY_28": 20000,
-      "__EMPTY_33": 0
+      "__EMPTY_33": 20000
     },
     {
       "__EMPTY": "Plan",
@@ -5771,11 +5771,11 @@
       "__EMPTY_22": 4000,
       "__EMPTY_23": 4000,
       "__EMPTY_24": 4000,
-      "__EMPTY_25": 0,
+      "__EMPTY_25": 96000,
       "__EMPTY_26": 48000,
       "__EMPTY_27": 48000,
       "__EMPTY_28": 96000,
-      "__EMPTY_33": 0
+      "__EMPTY_33": 96000
     },
     {
       "__EMPTY_24": "Actual",
@@ -5788,7 +5788,7 @@
     {
       "__EMPTY_22": "  ",
       "__EMPTY_24": "Target",
-      "__EMPTY_25": 0,
+      "__EMPTY_25": 96000,
       "__EMPTY_26": 48000,
       "__EMPTY_27": 48000,
       "__EMPTY_28": 96000,
@@ -5796,9 +5796,10 @@
     },
     {
       "__EMPTY_24": "Hit %",
-      "__EMPTY_26": 0.416666666666667,
+      "__EMPTY_25": 0.20833333333333334,
+      "__EMPTY_26": 0.4166666666666667,
       "__EMPTY_27": 0,
-      "__EMPTY_28": 0.208333333333333,
+      "__EMPTY_28": 0.20833333333333334,
       "__EMPTY_30": "FINISH J.O",
       "__EMPTY_33": 0
     }
@@ -5847,7 +5848,7 @@
       "__EMPTY_11": "ACTUAL",
       "__EMPTY_12": "PLAN",
       "as of": "ACTUAL",
-      "3:00 PM": "PLAN",
+      "1:00 PM": "PLAN",
       "__EMPTY_15": "ACTUAL",
       "TIME:": "PLAN",
       "__EMPTY_16": "ACTUAL",
@@ -5865,14 +5866,14 @@
       "__EMPTY": 0,
       "__EMPTY_2": 0,
       "__EMPTY_3": 0,
-      "__EMPTY_5": 0,
-      "__EMPTY_6": 0,
+      "__EMPTY_5": 4000,
+      "__EMPTY_6": 4000,
       "__EMPTY_8": 0,
       "__EMPTY_9": 0,
       "__EMPTY_11": 0,
       "__EMPTY_12": 0,
-      "as of": 0,
-      "3:00 PM": 0,
+      "as of": 2000,
+      "1:00 PM": 2000,
       "__EMPTY_15": 0,
       "TIME:": 0,
       "__EMPTY_16": 0,
@@ -5897,7 +5898,7 @@
       "__EMPTY_11": 0,
       "__EMPTY_12": 0,
       "as of": 14800,
-      "3:00 PM": 14000,
+      "1:00 PM": 14000,
       "__EMPTY_15": 0,
       "TIME:": 0,
       "__EMPTY_16": 0,
@@ -5916,7 +5917,7 @@
       "__EMPTY_5": 1,
       "__EMPTY_8": 0,
       "__EMPTY_11": 0,
-      "as of": 1.05714285714286,
+      "as of": 1.0571428571428572,
       "__EMPTY_15": 0,
       "__EMPTY_16": 0,
       "__EMPTY_19": 0,
@@ -6007,7 +6008,7 @@
       "__EMPTY_15": 0,
       "__EMPTY_16": 0,
       "__EMPTY_19": 0,
-      "__EMPTY_22": 0.666666666666667,
+      "__EMPTY_22": 0.6666666666666666,
       "__EMPTY_25": 0
     },
     {
@@ -6099,7 +6100,7 @@
       "__EMPTY_11": "ACTUAL",
       "__EMPTY_12": "PLAN",
       "as of": "ACTUAL",
-      "3:00 PM": "PLAN",
+      "1:00 PM": "PLAN",
       "__EMPTY_15": "ACTUAL",
       "TIME:": "PLAN",
       "__EMPTY_16": "ACTUAL",
@@ -6113,26 +6114,26 @@
     },
     {
       "LOCATION / TIME:": "CURRENT",
-      "PLANT 1": 0,
-      "__EMPTY": 0,
+      "PLANT 1": 6000,
+      "__EMPTY": 6000,
       "__EMPTY_2": 0,
       "__EMPTY_3": 0,
       "__EMPTY_5": 0,
       "__EMPTY_6": 0,
-      "__EMPTY_8": 0,
-      "__EMPTY_9": 0,
-      "__EMPTY_11": 0,
-      "__EMPTY_12": 0,
+      "__EMPTY_8": 14000,
+      "__EMPTY_9": 8000,
+      "__EMPTY_11": 10000,
+      "__EMPTY_12": 8000,
       "as of": 0,
-      "3:00 PM": 0,
-      "__EMPTY_15": 0,
-      "TIME:": 0,
-      "__EMPTY_16": 0,
-      "__EMPTY_17": 0,
+      "1:00 PM": 0,
+      "__EMPTY_15": 8000,
+      "TIME:": 6000,
+      "__EMPTY_16": 8000,
+      "__EMPTY_17": 6000,
       "__EMPTY_19": 0,
       "__EMPTY_20": 0,
-      "__EMPTY_22": 0,
-      "__EMPTY_23": 0,
+      "__EMPTY_22": 10000,
+      "__EMPTY_23": 8000,
       "__EMPTY_25": 0
     },
     {
@@ -6148,7 +6149,7 @@
       "__EMPTY_11": 64000,
       "__EMPTY_12": 56000,
       "as of": 0,
-      "3:00 PM": 0,
+      "1:00 PM": 0,
       "__EMPTY_15": 48000,
       "TIME:": 42000,
       "__EMPTY_16": 52000,
@@ -6164,14 +6165,14 @@
       "LOCATION / TIME:": "PERCENTAGE",
       "PLANT 1": 1,
       "__EMPTY_2": 0,
-      "__EMPTY_5": 1.13333333333333,
-      "__EMPTY_8": 1.39285714285714,
-      "__EMPTY_11": 1.14285714285714,
+      "__EMPTY_5": 1.1333333333333333,
+      "__EMPTY_8": 1.3928571428571428,
+      "__EMPTY_11": 1.1428571428571428,
       "as of": 0,
-      "__EMPTY_15": 1.14285714285714,
-      "__EMPTY_16": 1.23809523809524,
+      "__EMPTY_15": 1.1428571428571428,
+      "__EMPTY_16": 1.2380952380952381,
       "__EMPTY_19": 0,
-      "__EMPTY_22": 1.07142857142857,
+      "__EMPTY_22": 1.0714285714285714,
       "__EMPTY_25": 0
     },
     {
@@ -6348,7 +6349,7 @@
       "__EMPTY_11": "ACTUAL",
       "__EMPTY_12": "PLAN",
       "as of": "ACTUAL",
-      "3:00 PM": "PLAN",
+      "1:00 PM": "PLAN",
       "__EMPTY_15": "ACTUAL",
       "TIME:": "PLAN",
       "__EMPTY_16": "ACTUAL",
@@ -6360,16 +6361,16 @@
       "LOCATION / TIME:": "CURRENT",
       "PLANT 1": 0,
       "__EMPTY": 0,
-      "__EMPTY_2": 0,
-      "__EMPTY_3": 0,
-      "__EMPTY_5": 0,
-      "__EMPTY_6": 0,
+      "__EMPTY_2": 60000,
+      "__EMPTY_3": 60000,
+      "__EMPTY_5": 30000,
+      "__EMPTY_6": 30000,
       "__EMPTY_8": 0,
       "__EMPTY_9": 0,
       "__EMPTY_11": 0,
       "__EMPTY_12": 0,
-      "as of": 0,
-      "3:00 PM": 0,
+      "as of": 7000,
+      "1:00 PM": 6300,
       "__EMPTY_15": 0,
       "TIME:": 0,
       "__EMPTY_16": 0,
@@ -6390,7 +6391,7 @@
       "__EMPTY_11": 0,
       "__EMPTY_12": 0,
       "as of": 38500,
-      "3:00 PM": 35000,
+      "1:00 PM": 35000,
       "__EMPTY_15": 0,
       "TIME:": 0,
       "__EMPTY_16": 0,
@@ -6526,7 +6527,7 @@
       "__EMPTY_11": "ACTUAL",
       "__EMPTY_12": "PLAN",
       "as of": "ACTUAL",
-      "3:00 PM": "PLAN",
+      "1:00 PM": "PLAN",
       "__EMPTY_15": "ACTUAL",
       "TIME:": "PLAN",
       "__EMPTY_16": "ACTUAL",
@@ -6547,7 +6548,7 @@
       "__EMPTY_11": 0,
       "__EMPTY_12": 0,
       "as of": 0,
-      "3:00 PM": 0,
+      "1:00 PM": 0,
       "__EMPTY_15": 0,
       "TIME:": 0,
       "__EMPTY_16": 0,
@@ -6568,7 +6569,7 @@
       "__EMPTY_11": 30000,
       "__EMPTY_12": 22000,
       "as of": 0,
-      "3:00 PM": 0,
+      "1:00 PM": 0,
       "__EMPTY_15": 0,
       "TIME:": 0,
       "__EMPTY_16": 0,
@@ -6582,11 +6583,11 @@
       "__EMPTY_2": 0.6,
       "__EMPTY_5": 0,
       "__EMPTY_8": 0,
-      "__EMPTY_11": 1.36363636363636,
+      "__EMPTY_11": 1.3636363636363635,
       "as of": 0,
       "__EMPTY_15": 0,
       "__EMPTY_16": 0,
-      "__EMPTY_19": 1.02444444444444
+      "__EMPTY_19": 1.0244444444444445
     },
     {
       "PLANT 1": 560000,
@@ -6599,7 +6600,7 @@
     {
       "LOCATION / TIME:": "Machine Utilization",
       "PLANT 1": 0,
-      "__EMPTY_2": 0.0171428571428571,
+      "__EMPTY_2": 0.017142857142857144,
       "__EMPTY_5": 0,
       "__EMPTY_8": 0,
       "__EMPTY_11": 0,
@@ -6697,7 +6698,7 @@
       "__EMPTY_11": "ACTUAL",
       "__EMPTY_12": "PLAN",
       "as of": "ACTUAL",
-      "3:00 PM": "PLAN",
+      "1:00 PM": "PLAN",
       "__EMPTY_15": "ACTUAL",
       "TIME:": "PLAN",
       "__EMPTY_16": "ACTUAL",
@@ -6716,7 +6717,7 @@
       "__EMPTY_11": 1,
       "__EMPTY_12": 1,
       "as of": 1,
-      "3:00 PM": 1,
+      "1:00 PM": 1,
       "__EMPTY_15": 0,
       "TIME:": 1,
       "__EMPTY_16": 0,
@@ -6735,7 +6736,7 @@
       "__EMPTY_11": 2,
       "__EMPTY_12": 2,
       "as of": 1,
-      "3:00 PM": 1,
+      "1:00 PM": 1,
       "__EMPTY_15": 0,
       "TIME:": 0,
       "__EMPTY_16": 0,
@@ -6754,7 +6755,7 @@
       "__EMPTY_11": 5,
       "__EMPTY_12": 5,
       "as of": 17,
-      "3:00 PM": 17,
+      "1:00 PM": 17,
       "__EMPTY_15": 4,
       "TIME:": 8,
       "__EMPTY_16": 2,
@@ -6775,7 +6776,7 @@
       "__EMPTY_11": 0,
       "__EMPTY_12": 0,
       "as of": 1,
-      "3:00 PM": 1,
+      "1:00 PM": 1,
       "__EMPTY_15": 0,
       "TIME:": 0,
       "__EMPTY_16": 0,
@@ -6794,7 +6795,7 @@
       "__EMPTY_11": 8,
       "__EMPTY_12": 8,
       "as of": 20,
-      "3:00 PM": 20,
+      "1:00 PM": 20,
       "__EMPTY_15": 4,
       "TIME:": 9,
       "__EMPTY_16": 2,
@@ -6802,13 +6803,13 @@
     },
     {
       "LOCATION / TIME:": "Attendance Rate",
-      "PLANT 1": 0.914285714285714,
+      "PLANT 1": 0.9142857142857143,
       "__EMPTY_2": 1,
       "__EMPTY_5": 1,
-      "__EMPTY_8": 0.888888888888889,
+      "__EMPTY_8": 0.8888888888888888,
       "__EMPTY_11": 1,
       "as of": 1,
-      "__EMPTY_15": 0.444444444444444,
+      "__EMPTY_15": 0.4444444444444444,
       "__EMPTY_16": 1
     },
     {
@@ -6835,7 +6836,7 @@
       "__EMPTY_11": "ACTUAL",
       "__EMPTY_12": "PLAN",
       "as of": "ACTUAL",
-      "3:00 PM": "PLAN",
+      "1:00 PM": "PLAN",
       "__EMPTY_15": "ACTUAL",
       "TIME:": "PLAN",
       "__EMPTY_16": "ACTUAL",
@@ -6854,7 +6855,7 @@
       "__EMPTY_11": 0,
       "__EMPTY_12": 0,
       "as of": 0,
-      "3:00 PM": 0,
+      "1:00 PM": 0,
       "__EMPTY_15": 0,
       "TIME:": 0,
       "__EMPTY_16": 0,
@@ -6873,7 +6874,7 @@
       "__EMPTY_11": 0,
       "__EMPTY_12": 0,
       "as of": 0,
-      "3:00 PM": 0,
+      "1:00 PM": 0,
       "__EMPTY_15": 0,
       "TIME:": 0,
       "__EMPTY_16": 0,
@@ -6892,7 +6893,7 @@
       "__EMPTY_11": 0,
       "__EMPTY_12": 0,
       "as of": 0,
-      "3:00 PM": 0,
+      "1:00 PM": 0,
       "__EMPTY_15": 0,
       "TIME:": 0,
       "__EMPTY_16": 0,
@@ -6913,7 +6914,7 @@
       "__EMPTY_11": 0,
       "__EMPTY_12": 0,
       "as of": 0,
-      "3:00 PM": 0,
+      "1:00 PM": 0,
       "__EMPTY_15": 0,
       "TIME:": 0,
       "__EMPTY_16": 0,
@@ -6932,7 +6933,7 @@
       "__EMPTY_11": 0,
       "__EMPTY_12": 0,
       "as of": 0,
-      "3:00 PM": 0,
+      "1:00 PM": 0,
       "__EMPTY_15": 0,
       "TIME:": 0,
       "__EMPTY_16": 0,
@@ -6976,9 +6977,9 @@
     },
     {
       "PLANT 1": "FG CODE / MACHINE",
-      "3/19/26 15:45": "ITEM DESCRIPTION",
-      "SHIFT A": 0.291666666666667,
-      "__EMPTY_1": 0.333333333333333,
+      "3/3/26 13:48": "ITEM DESCRIPTION",
+      "SHIFT A": 0.2916666666666667,
+      "__EMPTY_1": 0.3333333333333333,
       "__EMPTY_2": 0.375,
       "__EMPTY_3": 0.416666666666667,
       "__EMPTY_4": 0.458333333333334,
@@ -6993,13 +6994,13 @@
       "__EMPTY_12": 0.833333333333333,
       "__EMPTY_13": 0.875,
       "__EMPTY_14": 0.916666666666666,
-      "__EMPTY_15": 0.958333333333333,
+      "__EMPTY_15": 0.9583333333333334,
       "__EMPTY_16": 0,
-      "__EMPTY_17": 0.0416666666666667,
-      "__EMPTY_18": 0.0833333333333333,
+      "__EMPTY_17": 0.041666666666666664,
+      "__EMPTY_18": 0.08333333333333333,
       "__EMPTY_19": 0.125,
-      "__EMPTY_20": 0.166666666666667,
-      "__EMPTY_21": 0.208333333333333,
+      "__EMPTY_20": 0.16666666666666666,
+      "__EMPTY_21": 0.20833333333333334,
       "__EMPTY_22": 0.25,
       "__EMPTY_23": "Running Total",
       "__EMPTY_24": "Total A Shift",
@@ -7009,7 +7010,7 @@
       "__EMPTY_28": "REMARKS"
     },
     {
-      "3/19/26 15:45": "90 mm Sip Lid Rpet PH / MY",
+      "3/3/26 13:48": "90 mm Sip Lid Rpet PH / MY",
       "__EMPTY": "Actual",
       "__EMPTY_23": 0,
       "__EMPTY_24": 0,
@@ -7028,7 +7029,7 @@
       "__EMPTY_30": 0
     },
     {
-      "3/19/26 15:45": "MCD 1 oz LID PPC",
+      "3/3/26 13:48": "MCD 1 oz LID PPC",
       "__EMPTY": "Actual",
       "SHIFT A": 60000,
       "__EMPTY_1": 60000,
@@ -7061,7 +7062,7 @@
       "__EMPTY_30": 420000
     },
     {
-      "3/19/26 15:45": "80 mm Sip Lid Rpet MY",
+      "3/3/26 13:48": "80 mm Sip Lid Rpet MY",
       "__EMPTY": "Actual",
       "SHIFT A": 20000,
       "__EMPTY_1": 34000,
@@ -7094,7 +7095,7 @@
       "__EMPTY_30": 200000
     },
     {
-      "3/19/26 15:45": "90 mm Sip Lid Rpet PH ",
+      "3/3/26 13:48": "90 mm Sip Lid Rpet PH ",
       "__EMPTY": "Actual",
       "__EMPTY_1": 10000,
       "__EMPTY_2": 4000,
@@ -7133,7 +7134,7 @@
       "__EMPTY_26": 0
     },
     {
-      "3/19/26 15:45": "SFG 16 oz Float PPC",
+      "3/3/26 13:48": "SFG 16 oz Float PPC",
       "__EMPTY": "Actual",
       "__EMPTY_1": 3500,
       "__EMPTY_2": 7000,
@@ -7163,7 +7164,7 @@
       "__EMPTY_26": 35000
     },
     {
-      "3/19/26 15:45": "3oz CUP JFC ",
+      "3/3/26 13:48": "3oz CUP JFC ",
       "__EMPTY": "Actual",
       "__EMPTY_23": 0,
       "__EMPTY_24": 0,
@@ -7180,7 +7181,7 @@
       "__EMPTY_26": 0
     },
     {
-      "3/19/26 15:45": "Large Cup Rpet",
+      "3/3/26 13:48": "Large Cup Rpet",
       "__EMPTY": "Actual",
       "__EMPTY_23": 0,
       "__EMPTY_24": 0,
@@ -7215,7 +7216,7 @@
     },
     {
       "__EMPTY_22": "Hit %",
-      "__EMPTY_23": 1.10650406504065,
+      "__EMPTY_23": 1.1065040650406504,
       "__EMPTY_24": 0.979136690647482,
       "__EMPTY_26": 0.979136690647482,
       "__EMPTY_30": 0
@@ -7225,7 +7226,7 @@
       "__EMPTY_30": 0
     },
     {
-      "3/19/26 15:45": "no schedule",
+      "3/3/26 13:48": "no schedule",
       "__EMPTY": "Actual",
       "__EMPTY_23": 0,
       "__EMPTY_24": 0,
@@ -7243,7 +7244,7 @@
       "__EMPTY_30": 0
     },
     {
-      "3/19/26 15:45": "20oz sbux core",
+      "3/3/26 13:48": "20oz sbux core",
       "__EMPTY": "Actual",
       "__EMPTY_1": 6400,
       "__EMPTY_2": 3200,
@@ -7267,7 +7268,7 @@
       "__EMPTY_30": 16000
     },
     {
-      "3/19/26 15:45": "no schedule",
+      "3/3/26 13:48": "no schedule",
       "__EMPTY": "Actual",
       "__EMPTY_23": 0,
       "__EMPTY_24": 0,
@@ -7280,7 +7281,7 @@
       "__EMPTY_23": 0
     },
     {
-      "3/19/26 15:45": "LARGE RPET NB NZ",
+      "3/3/26 13:48": "LARGE RPET NB NZ",
       "__EMPTY": "Actual",
       "__EMPTY_23": 0,
       "__EMPTY_24": 0,
@@ -7299,7 +7300,7 @@
       "__EMPTY_30": 0
     },
     {
-      "3/19/26 15:45": "6oz Mango Fiesta",
+      "3/3/26 13:48": "6oz Mango Fiesta",
       "__EMPTY": "Actual",
       "__EMPTY_3": 6000,
       "__EMPTY_4": 12000,
@@ -7308,7 +7309,7 @@
       "__EMPTY_24": 30000,
       "__EMPTY_25": 0,
       "__EMPTY_26": 30000,
-      "__EMPTY_27": 1.36363636363636,
+      "__EMPTY_27": 1.3636363636363635,
       "__EMPTY_28": "no inspector available  /inspector  from v2",
       "__EMPTY_30": 30000
     },
@@ -7325,7 +7326,7 @@
       "__EMPTY_30": 22000
     },
     {
-      "3/19/26 15:45": " 12oz sbux core",
+      "3/3/26 13:48": " 12oz sbux core",
       "__EMPTY": "Actual",
       "__EMPTY_23": 0,
       "__EMPTY_24": 0,
@@ -7344,7 +7345,7 @@
       "__EMPTY_30": 0
     },
     {
-      "3/19/26 15:45": "16oz JFC FLOAT",
+      "3/3/26 13:48": "16oz JFC FLOAT",
       "__EMPTY": "Actual",
       "__EMPTY_1": 7000,
       "__EMPTY_2": 5000,
@@ -7406,7 +7407,7 @@
       "__EMPTY_30": 0
     },
     {
-      "3/19/26 15:45": "0.25 x 738 ppc",
+      "3/3/26 13:48": "0.25 x 738 ppc",
       "__EMPTY": "Actual",
       "__EMPTY_30": 0
     },
@@ -7425,7 +7426,7 @@
       "__EMPTY_30": 0
     },
     {
-      "3/19/26 15:45": "1.0x485 PSW",
+      "3/3/26 13:48": "1.0x485 PSW",
       "__EMPTY": "Actual",
       "SHIFT A": 465,
       "__EMPTY_1": 422,
@@ -7500,9 +7501,9 @@
     },
     {
       "PLANT 1": "FG CODE / MACHINE",
-      "3/19/26 15:45": "ITEM DESCRIPTION",
-      "SHIFT A": 0.291666666666667,
-      "__EMPTY_1": 0.333333333333333,
+      "3/3/26 13:48": "ITEM DESCRIPTION",
+      "SHIFT A": 0.2916666666666667,
+      "__EMPTY_1": 0.3333333333333333,
       "__EMPTY_2": 0.375,
       "__EMPTY_3": 0.416666666666667,
       "__EMPTY_4": 0.458333333333334,
@@ -7513,14 +7514,14 @@
       "__EMPTY_9": 0.666666666666667,
       "__EMPTY_10": 0.708333333333333,
       "__EMPTY_11": 0.75,
-      "SHIFT B": 0.791666666666667,
-      "__EMPTY_12": 0.833333333333333,
+      "SHIFT B": 0.7916666666666666,
+      "__EMPTY_12": 0.8333333333333334,
       "__EMPTY_13": 0.875,
       "__EMPTY_14": 0.916666666666667,
-      "__EMPTY_15": 0.958333333333333,
+      "__EMPTY_15": 0.9583333333333334,
       "__EMPTY_16": 1,
       "__EMPTY_17": 1.04166666666667,
-      "__EMPTY_18": 0.0833333333333333,
+      "__EMPTY_18": 0.08333333333333333,
       "__EMPTY_19": 0.125,
       "__EMPTY_20": 1.16666666666667,
       "__EMPTY_21": 1.20833333333333,
@@ -7567,7 +7568,7 @@
       "__EMPTY_31": 0
     },
     {
-      "3/19/26 15:45": "4.5oz.Cup PSW ",
+      "3/3/26 13:48": "4.5oz.Cup PSW ",
       "__EMPTY": "Actual",
       "SHIFT A": 4000,
       "__EMPTY_1": 4000,
@@ -7581,7 +7582,7 @@
       "__EMPTY_25": 0,
       "__EMPTY_26": 28000,
       "__EMPTY_27": 1,
-      "__EMPTY_31": 0
+      "__EMPTY_31": 28000
     },
     {
       "PLANT 1": "ICM 4",
@@ -7597,7 +7598,7 @@
       "__EMPTY_24": 28000,
       "__EMPTY_25": 0,
       "__EMPTY_26": 28000,
-      "__EMPTY_31": 0
+      "__EMPTY_31": 28000
     },
     {
       "__EMPTY": "Actual",
@@ -7617,7 +7618,7 @@
       "__EMPTY_31": 0
     },
     {
-      "3/19/26 15:45": "New Zealand Lid PPB",
+      "3/3/26 13:48": "New Zealand Lid PPB",
       "__EMPTY": "Actual",
       "__EMPTY_23": 0,
       "__EMPTY_24": 0,
@@ -7635,7 +7636,7 @@
       "__EMPTY_31": 0
     },
     {
-      "3/19/26 15:45": "Da Vinci Tray ",
+      "3/3/26 13:48": "Da Vinci Tray ",
       "__EMPTY": "Actual",
       "SHIFT A": 2400,
       "__EMPTY_1": 2000,
@@ -7648,8 +7649,8 @@
       "__EMPTY_24": 14800,
       "__EMPTY_25": 0,
       "__EMPTY_26": 14800,
-      "__EMPTY_27": 1.05714285714286,
-      "__EMPTY_31": 0
+      "__EMPTY_27": 1.0571428571428572,
+      "__EMPTY_31": 14800
     },
     {
       "PLANT 1": "ICM 7",
@@ -7665,7 +7666,7 @@
       "__EMPTY_24": 14000,
       "__EMPTY_25": 0,
       "__EMPTY_26": 14000,
-      "__EMPTY_31": 0
+      "__EMPTY_31": 14000
     },
     {
       "__EMPTY": "Actual",
@@ -7685,7 +7686,7 @@
       "__EMPTY_31": 0
     },
     {
-      "3/19/26 15:45": "No Schedule",
+      "3/3/26 13:48": "No Schedule",
       "__EMPTY": "Actual",
       "__EMPTY_23": 0,
       "__EMPTY_24": 0,
@@ -7720,7 +7721,7 @@
       "__EMPTY_31": 0
     },
     {
-      "3/19/26 15:45": "No Schedule",
+      "3/3/26 13:48": "No Schedule",
       "__EMPTY": "Actual",
       "__EMPTY_23": 0,
       "__EMPTY_24": 0,
@@ -7738,7 +7739,7 @@
       "__EMPTY_31": 0
     },
     {
-      "3/19/26 15:45": "No Schedule",
+      "3/3/26 13:48": "No Schedule",
       "__EMPTY": "Actual",
       "__EMPTY_23": 0,
       "__EMPTY_24": 0,
@@ -7756,7 +7757,7 @@
       "__EMPTY_31": 0
     },
     {
-      "3/19/26 15:45": "Mcdo Fork PPW Rebox",
+      "3/3/26 13:48": "Mcdo Fork PPW Rebox",
       "__EMPTY": "Actual",
       "SHIFT A": 80000,
       "__EMPTY_1": 120000,
@@ -7799,7 +7800,7 @@
       "__EMPTY_26": 0
     },
     {
-      "3/19/26 15:45": "New Zealand Lid Local",
+      "3/3/26 13:48": "New Zealand Lid Local",
       "__EMPTY": "Actual",
       "SHIFT A": 650,
       "__EMPTY_1": 650,
@@ -7880,7 +7881,7 @@
       "__EMPTY_24": 0,
       "__EMPTY_25": 0,
       "__EMPTY_26": 0,
-      "__EMPTY_31": 0
+      "__EMPTY_31": 42000
     },
     {
       "PLANT 1": "TUNNEL 3",
@@ -7889,7 +7890,7 @@
       "__EMPTY_24": 0,
       "__EMPTY_25": 0,
       "__EMPTY_26": 0,
-      "__EMPTY_31": 0
+      "__EMPTY_31": 42000
     },
     {
       "__EMPTY_22": "Actual",
@@ -7909,16 +7910,16 @@
     },
     {
       "__EMPTY_22": "Hit %",
-      "__EMPTY_23": 1.00146225552915,
-      "__EMPTY_24": 1.00146225552915,
-      "__EMPTY_26": 1.00146225552915,
-      "__EMPTY_31": 0
+      "__EMPTY_23": 1.0014622555291537,
+      "__EMPTY_24": 1.0014622555291537,
+      "__EMPTY_26": 1.0014622555291537,
+      "__EMPTY_31": 34000
     },
     {
       "PLANT 1": "FG CODE / MACHINE",
-      "3/19/26 15:45": "ITEM DESCRIPTION",
-      "SHIFT A": 0.291666666666667,
-      "__EMPTY_1": 0.333333333333333,
+      "3/3/26 13:48": "ITEM DESCRIPTION",
+      "SHIFT A": 0.2916666666666667,
+      "__EMPTY_1": 0.3333333333333333,
       "__EMPTY_2": 0.375,
       "__EMPTY_3": 0.416666666666667,
       "__EMPTY_4": 0.458333333333334,
@@ -7929,14 +7930,14 @@
       "__EMPTY_9": 0.666666666666667,
       "__EMPTY_10": 0.708333333333333,
       "__EMPTY_11": 0.75,
-      "SHIFT B": 0.791666666666667,
-      "__EMPTY_12": 0.833333333333333,
+      "SHIFT B": 0.7916666666666666,
+      "__EMPTY_12": 0.8333333333333334,
       "__EMPTY_13": 0.875,
       "__EMPTY_14": 0.916666666666667,
-      "__EMPTY_15": 0.958333333333333,
+      "__EMPTY_15": 0.9583333333333334,
       "__EMPTY_16": 1,
       "__EMPTY_17": 1.04166666666667,
-      "__EMPTY_18": 0.0833333333333333,
+      "__EMPTY_18": 0.08333333333333333,
       "__EMPTY_19": 0.125,
       "__EMPTY_20": 1.16666666666667,
       "__EMPTY_21": 1.20833333333333,
@@ -7946,10 +7947,10 @@
       "__EMPTY_25": "Total B Shift",
       "__EMPTY_26": "Total AB",
       "__EMPTY_27": "% Completion",
-      "__EMPTY_31": 0
+      "__EMPTY_31": 30000
     },
     {
-      "3/19/26 15:45": "mcdo  knife",
+      "3/3/26 13:48": "mcdo  knife",
       "__EMPTY": "Actual",
       "SHIFT A": 6000,
       "__EMPTY_1": 6000,
@@ -7963,7 +7964,7 @@
       "__EMPTY_25": 0,
       "__EMPTY_26": 42000,
       "__EMPTY_27": 1,
-      "__EMPTY_31": 0
+      "__EMPTY_31": 78000
     },
     {
       "PLANT 1": "IM 4",
@@ -7979,17 +7980,17 @@
       "__EMPTY_24": 42000,
       "__EMPTY_25": 0,
       "__EMPTY_26": 42000,
-      "__EMPTY_31": 0
+      "__EMPTY_31": 56000
     },
     {
-      "3/19/26 15:45": "Spoon Guppy",
+      "3/3/26 13:48": "Spoon Guppy",
       "__EMPTY": "Actual",
       "__EMPTY_23": 0,
       "__EMPTY_24": 0,
       "__EMPTY_25": 0,
       "__EMPTY_26": 0,
       "__EMPTY_28": "No sched.",
-      "__EMPTY_31": 0
+      "__EMPTY_31": 64000
     },
     {
       "PLANT 1": "IM 5",
@@ -7998,10 +7999,10 @@
       "__EMPTY_24": 0,
       "__EMPTY_25": 0,
       "__EMPTY_26": 0,
-      "__EMPTY_31": 0
+      "__EMPTY_31": 56000
     },
     {
-      "3/19/26 15:45": "       Spoon  ID ",
+      "3/3/26 13:48": "       Spoon  ID ",
       "__EMPTY": "Actual",
       "SHIFT A": 6000,
       "__EMPTY_1": 6000,
@@ -8012,7 +8013,7 @@
       "__EMPTY_24": 34000,
       "__EMPTY_25": 0,
       "__EMPTY_26": 34000,
-      "__EMPTY_27": 1.13333333333333,
+      "__EMPTY_27": 1.1333333333333333,
       "__EMPTY_28": "1100h M/C stop  due to i/o board alarm",
       "__EMPTY_31": 0
     },
@@ -8031,7 +8032,7 @@
       "__EMPTY_31": 0
     },
     {
-      "3/19/26 15:45": "      Spoon Guppy",
+      "3/3/26 13:48": "      Spoon Guppy",
       "__EMPTY": "Actual",
       "SHIFT A": 10000,
       "__EMPTY_1": 10000,
@@ -8044,8 +8045,8 @@
       "__EMPTY_24": 78000,
       "__EMPTY_25": 0,
       "__EMPTY_26": 78000,
-      "__EMPTY_27": 1.39285714285714,
-      "__EMPTY_31": 0
+      "__EMPTY_27": 1.3928571428571428,
+      "__EMPTY_31": 48000
     },
     {
       "PLANT 1": "IM 12",
@@ -8061,10 +8062,10 @@
       "__EMPTY_24": 56000,
       "__EMPTY_25": 0,
       "__EMPTY_26": 56000,
-      "__EMPTY_31": 0
+      "__EMPTY_31": 42000
     },
     {
-      "3/19/26 15:45": "Fork Polaris",
+      "3/3/26 13:48": "Fork Polaris",
       "__EMPTY": "Actual",
       "SHIFT A": 8000,
       "__EMPTY_1": 8000,
@@ -8077,8 +8078,8 @@
       "__EMPTY_24": 64000,
       "__EMPTY_25": 0,
       "__EMPTY_26": 64000,
-      "__EMPTY_27": 1.14285714285714,
-      "__EMPTY_31": 0
+      "__EMPTY_27": 1.1428571428571428,
+      "__EMPTY_31": 52000
     },
     {
       "PLANT 1": "IM 13",
@@ -8094,7 +8095,7 @@
       "__EMPTY_24": 56000,
       "__EMPTY_25": 0,
       "__EMPTY_26": 56000,
-      "__EMPTY_31": 0
+      "__EMPTY_31": 42000
     },
     {
       "__EMPTY": "Actual",
@@ -8114,7 +8115,7 @@
       "__EMPTY_31": 0
     },
     {
-      "3/19/26 15:45": "Fork Guppy ",
+      "3/3/26 13:48": "Fork Guppy ",
       "__EMPTY": "Actual",
       "SHIFT A": 6000,
       "__EMPTY_1": 6000,
@@ -8127,8 +8128,8 @@
       "__EMPTY_24": 48000,
       "__EMPTY_25": 0,
       "__EMPTY_26": 48000,
-      "__EMPTY_27": 1.14285714285714,
-      "__EMPTY_31": 0
+      "__EMPTY_27": 1.1428571428571428,
+      "__EMPTY_31": 60000
     },
     {
       "PLANT 1": "IM 15",
@@ -8144,10 +8145,10 @@
       "__EMPTY_24": 42000,
       "__EMPTY_25": 0,
       "__EMPTY_26": 42000,
-      "__EMPTY_31": 0
+      "__EMPTY_31": 56000
     },
     {
-      "3/19/26 15:45": "Spoon ID",
+      "3/3/26 13:48": "Spoon ID",
       "__EMPTY": "Actual",
       "SHIFT A": 6000,
       "__EMPTY_1": 6000,
@@ -8160,7 +8161,7 @@
       "__EMPTY_24": 52000,
       "__EMPTY_25": 0,
       "__EMPTY_26": 52000,
-      "__EMPTY_27": 1.23809523809524
+      "__EMPTY_27": 1.2380952380952381
     },
     {
       "PLANT 1": "IM 16",
@@ -8193,7 +8194,7 @@
       "__EMPTY_26": 0
     },
     {
-      "3/19/26 15:45": "Fork ID",
+      "3/3/26 13:48": "Fork ID",
       "__EMPTY": "Actual",
       "SHIFT A": 8000,
       "__EMPTY_1": 8000,
@@ -8206,7 +8207,7 @@
       "__EMPTY_24": 60000,
       "__EMPTY_25": 0,
       "__EMPTY_26": 60000,
-      "__EMPTY_27": 1.07142857142857
+      "__EMPTY_27": 1.0714285714285714
     },
     {
       "PLANT 1": "IM 18",
@@ -8239,9 +8240,9 @@
     },
     {
       "__EMPTY_22": "Hit %",
-      "__EMPTY_23": 1.16666666666667,
-      "__EMPTY_24": 1.16666666666667,
-      "__EMPTY_26": 1.16666666666667
+      "__EMPTY_23": 1.1666666666666667,
+      "__EMPTY_24": 1.1666666666666667,
+      "__EMPTY_26": 1.1666666666666667
     }
   ],
   "Monthly Summary": [
@@ -8996,7 +8997,7 @@
   ],
   "P1&2 Attendance": [
     {
-      "__EMPTY_1": 46100.6566898148
+      "__EMPTY_1": 46084.57548263889
     },
     {
       "__EMPTY_1": "PLANT 1 SHIFT A",
@@ -9009,7 +9010,7 @@
       "__EMPTY_29": "RECYCLING",
       "__EMPTY_37": "No.",
       "Attendance": "Last name",
-      "3/19/26": "First Name",
+      "3/3/26": "First Name",
       "__EMPTY_38": "Middle Name",
       "__EMPTY_39": "Process",
       "__EMPTY_40": "Machine"
@@ -9033,7 +9034,7 @@
       "__EMPTY_31": "Plan",
       "__EMPTY_37": 1,
       "Attendance": "Abasula",
-      "3/19/26": "Rose Marie",
+      "3/3/26": "Rose Marie",
       "__EMPTY_38": "Ocero",
       "__EMPTY_39": "ICM"
     },
@@ -9061,7 +9062,7 @@
       "__EMPTY_29": "LL",
       "__EMPTY_37": 2,
       "Attendance": "Abes",
-      "3/19/26": "Eric",
+      "3/3/26": "Eric",
       "__EMPTY_38": "Podpod",
       "__EMPTY_39": "Thermoforming",
       "__EMPTY_40": "KMD2",
@@ -9116,7 +9117,7 @@
       "__EMPTY_31": 2,
       "__EMPTY_37": 4,
       "Attendance": "Abrian",
-      "3/19/26": "Wilben",
+      "3/3/26": "Wilben",
       "__EMPTY_38": "Gavica",
       "__EMPTY_39": "QMD",
       "__EMPTY_40": " "
@@ -9168,31 +9169,31 @@
       "__EMPTY_33": "DON'T DELETE THIS ROW",
       "__EMPTY_37": 6,
       "Attendance": "Aguilar",
-      "3/19/26": "Magtanggol Jr.",
+      "3/3/26": "Magtanggol Jr.",
       "__EMPTY_38": "Orosco",
       "__EMPTY_39": "Moldshop",
       "__EMPTY_40": " "
     },
     {
       "__EMPTY_1": "Attendance Rate",
-      "__EMPTY_3": 0.914285714285714,
+      "__EMPTY_3": 0.9142857142857143,
       "__EMPTY_5": "Attendance Rate",
       "__EMPTY_7": 1,
       "__EMPTY_9": "Attendance Rate",
       "__EMPTY_11": 1,
       "__EMPTY_13": "Attendance Rate",
-      "__EMPTY_15": 0.888888888888889,
+      "__EMPTY_15": 0.8888888888888888,
       "__EMPTY_17": "Attendance Rate",
       "__EMPTY_19": 1,
       "__EMPTY_21": "Attendance Rate",
       "__EMPTY_23": 1,
       "__EMPTY_25": "Attendance Rate",
-      "__EMPTY_27": 0.444444444444444,
+      "__EMPTY_27": 0.4444444444444444,
       "__EMPTY_29": "Attendance Rate",
       "__EMPTY_31": 1,
       "__EMPTY_37": 7,
       "Attendance": "Albia",
-      "3/19/26": "Mary Rose",
+      "3/3/26": "Mary Rose",
       "__EMPTY_38": "Oronan",
       "__EMPTY_39": "MS P1",
       "__EMPTY_40": " "
@@ -9214,7 +9215,7 @@
       "__EMPTY_25": "Altura AA",
       "__EMPTY_37": 8,
       "Attendance": "Albina",
-      "3/19/26": "Elino",
+      "3/3/26": "Elino",
       "__EMPTY_38": "Diaz",
       "__EMPTY_39": "Warehouse and Logistics",
       "__EMPTY_40": " "
@@ -9227,11 +9228,11 @@
       "__EMPTY_25": "Velasco VL"
     },
     {
-      "__EMPTY_1": 46100.6566898148,
+      "__EMPTY_1": 46084.57548263889,
       "__EMPTY_25": "Saavedra AA",
       "__EMPTY_37": 9,
       "Attendance": "Almodovar",
-      "3/19/26": "Jajay",
+      "3/3/26": "Jajay",
       "__EMPTY_38": "Abuladora",
       "__EMPTY_39": "Thermoforming",
       "__EMPTY_40": "70K2"
@@ -9247,7 +9248,7 @@
       "__EMPTY_29": "RECYCLING",
       "__EMPTY_37": 10,
       "Attendance": "Alon",
-      "3/19/26": "Vanessa",
+      "3/3/26": "Vanessa",
       "__EMPTY_38": "Hirang",
       "__EMPTY_39": "PPIC",
       "__EMPTY_40": " "
@@ -9271,7 +9272,7 @@
       "__EMPTY_31": "Plan",
       "__EMPTY_37": 11,
       "Attendance": "Altabano",
-      "3/19/26": "Filipina",
+      "3/3/26": "Filipina",
       "__EMPTY_38": "Pascua",
       "__EMPTY_39": "QMD",
       "__EMPTY_40": " "
@@ -9289,7 +9290,7 @@
       "__EMPTY_29": "LL",
       "__EMPTY_37": 12,
       "Attendance": "Altabano",
-      "3/19/26": "Filipina",
+      "3/3/26": "Filipina",
       "__EMPTY_38": "Pascua",
       "__EMPTY_39": "QMD",
       "__EMPTY_40": " "
@@ -9307,7 +9308,7 @@
       "__EMPTY_29": "Process",
       "__EMPTY_37": 13,
       "Attendance": "Añasco",
-      "3/19/26": "Joel",
+      "3/3/26": "Joel",
       "__EMPTY_38": "Husayan",
       "__EMPTY_39": "Warehouse and Logistics",
       "__EMPTY_40": " "
@@ -9325,7 +9326,7 @@
       "__EMPTY_29": "Operator",
       "__EMPTY_37": 14,
       "Attendance": "Andes",
-      "3/19/26": "Jay Mar Ben",
+      "3/3/26": "Jay Mar Ben",
       "__EMPTY_38": "Grageda",
       "__EMPTY_39": "ICM",
       "__EMPTY_40": "ICM4"
@@ -9371,7 +9372,7 @@
       "__EMPTY_33": "DON'T DELETE THIS ROW",
       "__EMPTY_37": 16,
       "Attendance": "Arguson",
-      "3/19/26": "Vjornard",
+      "3/3/26": "Vjornard",
       "__EMPTY_38": "Macasias",
       "__EMPTY_39": "QMD",
       "__EMPTY_40": " "
@@ -9387,7 +9388,7 @@
       "__EMPTY_29": "Attendance Rate",
       "__EMPTY_37": 17,
       "Attendance": "Arnejo",
-      "3/19/26": "Argil",
+      "3/3/26": "Argil",
       "__EMPTY_38": "Bullos",
       "__EMPTY_39": "ICM",
       "__EMPTY_40": "ICM4"
@@ -9396,7 +9397,7 @@
       "__EMPTY_1": "DO NOT DELETE THIS PART",
       "__EMPTY_37": 18,
       "Attendance": "Atienza",
-      "3/19/26": "Nancy",
+      "3/3/26": "Nancy",
       "__EMPTY_38": "Manalo",
       "__EMPTY_39": "Thermoforming",
       "__EMPTY_40": "KMD3"
@@ -9404,7 +9405,7 @@
     {
       "__EMPTY_37": 19,
       "Attendance": "Atienza",
-      "3/19/26": "Nancy",
+      "3/3/26": "Nancy",
       "__EMPTY_38": "Manalo",
       "__EMPTY_39": "Thermoforming",
       "__EMPTY_40": "KMD3"
@@ -9412,7 +9413,7 @@
     {
       "__EMPTY_37": 20,
       "Attendance": "Autor",
-      "3/19/26": "Claro",
+      "3/3/26": "Claro",
       "__EMPTY_38": "Mañibo",
       "__EMPTY_39": "ICM",
       "__EMPTY_40": " "
@@ -9420,7 +9421,7 @@
     {
       "__EMPTY_37": 21,
       "Attendance": "Baay",
-      "3/19/26": "Hazel",
+      "3/3/26": "Hazel",
       "__EMPTY_38": "Piones",
       "__EMPTY_39": "Injection",
       "__EMPTY_40": " "
@@ -9428,7 +9429,7 @@
     {
       "__EMPTY_37": 22,
       "Attendance": "Badana",
-      "3/19/26": "Harry",
+      "3/3/26": "Harry",
       "__EMPTY_38": "Palad",
       "__EMPTY_39": "Paper Cup",
       "__EMPTY_40": " "
@@ -9436,98 +9437,98 @@
     {
       "__EMPTY_37": 23,
       "Attendance": "Balboa",
-      "3/19/26": "Rashed Allan",
+      "3/3/26": "Rashed Allan",
       "__EMPTY_38": "Ramos",
       "__EMPTY_39": "Thermoforming",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Banaag",
-      "3/19/26": "Mary Jean",
+      "3/3/26": "Mary Jean",
       "__EMPTY_38": "Tomas",
       "__EMPTY_39": "Injection",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Baroma",
-      "3/19/26": "Jeanny",
+      "3/3/26": "Jeanny",
       "__EMPTY_38": "Vergara",
       "__EMPTY_39": "Labeling",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "BASCO",
-      "3/19/26": "ABNER",
+      "3/3/26": "ABNER",
       "__EMPTY_38": "DIZON",
       "__EMPTY_39": "Thermo Lids",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Battulayan",
-      "3/19/26": "Mary Ann",
+      "3/3/26": "Mary Ann",
       "__EMPTY_38": "Ramos",
       "__EMPTY_39": "Injection",
       "__EMPTY_40": "IM13"
     },
     {
       "Attendance": "Bautista",
-      "3/19/26": "Ana Rose",
+      "3/3/26": "Ana Rose",
       "__EMPTY_38": "Dagli",
       "__EMPTY_39": "Injection",
       "__EMPTY_40": "IM12"
     },
     {
       "Attendance": "Bautista",
-      "3/19/26": "Ana Rose",
+      "3/3/26": "Ana Rose",
       "__EMPTY_38": "Dagli",
       "__EMPTY_39": "Injection",
       "__EMPTY_40": "IM12"
     },
     {
       "Attendance": "Bautista",
-      "3/19/26": "Ana Rose",
+      "3/3/26": "Ana Rose",
       "__EMPTY_38": "Dagli",
       "__EMPTY_39": "Injection",
       "__EMPTY_40": "IM12"
     },
     {
       "Attendance": "Bea",
-      "3/19/26": "John Rey",
+      "3/3/26": "John Rey",
       "__EMPTY_38": "Ebio",
       "__EMPTY_39": "Thermo Cups",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Belleza",
-      "3/19/26": "Lara Bianca",
+      "3/3/26": "Lara Bianca",
       "__EMPTY_38": "Luz",
       "__EMPTY_39": "Thermo Cups",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "BENDOL",
-      "3/19/26": "PASTOR JR.",
+      "3/3/26": "PASTOR JR.",
       "__EMPTY_38": "MASANGYA",
       "__EMPTY_39": "Injection",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Berganio",
-      "3/19/26": "Trisha Mae",
+      "3/3/26": "Trisha Mae",
       "__EMPTY_38": "Rebuyas",
       "__EMPTY_39": "Warehouse and Logistics",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Betero",
-      "3/19/26": "Alberto",
+      "3/3/26": "Alberto",
       "__EMPTY_38": "Ocampo",
       "__EMPTY_39": "ICM",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Bolina",
-      "3/19/26": "John Lloyd",
+      "3/3/26": "John Lloyd",
       "__EMPTY_38": "Tigue",
       "__EMPTY_39": "Maintenance P2",
       "__EMPTY_40": " "
@@ -9537,21 +9538,21 @@
     },
     {
       "Attendance": "Bombasi",
-      "3/19/26": "Erika Mae",
+      "3/3/26": "Erika Mae",
       "__EMPTY_38": "Alanes",
       "__EMPTY_39": "Human Resources",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Bongat",
-      "3/19/26": "Jet",
+      "3/3/26": "Jet",
       "__EMPTY_38": "Macasaet",
       "__EMPTY_39": "Thermoforming",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Bongoyan",
-      "3/19/26": "Alvin",
+      "3/3/26": "Alvin",
       "__EMPTY_38": "Arguelles",
       "__EMPTY_39": "EXTRUSION",
       "__EMPTY_40": " "
@@ -9561,35 +9562,35 @@
     },
     {
       "Attendance": "Borromeo",
-      "3/19/26": "Charyz",
+      "3/3/26": "Charyz",
       "__EMPTY_38": "Dejaico",
       "__EMPTY_39": "Paper Cup",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "BRISTOL",
-      "3/19/26": "RODERICK",
+      "3/3/26": "RODERICK",
       "__EMPTY_38": "TATLONGHARI",
       "__EMPTY_39": "Extrusion",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Brosas",
-      "3/19/26": "Rosalinda",
+      "3/3/26": "Rosalinda",
       "__EMPTY_38": "Rivamonte",
       "__EMPTY_39": "Thermo Lids",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Bueza",
-      "3/19/26": "Joel Jr.",
+      "3/3/26": "Joel Jr.",
       "__EMPTY_38": "Bueno",
       "__EMPTY_39": "Extrusion",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Bufi",
-      "3/19/26": "Joshua",
+      "3/3/26": "Joshua",
       "__EMPTY_38": "Bejo",
       "__EMPTY_39": "PDD",
       "__EMPTY_40": " "
@@ -9599,154 +9600,154 @@
     },
     {
       "Attendance": "Buya",
-      "3/19/26": "Mary Lee",
+      "3/3/26": "Mary Lee",
       "__EMPTY_38": "Manalaysay",
       "__EMPTY_39": "Supply Chain Management",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Caballe",
-      "3/19/26": "Marivic",
+      "3/3/26": "Marivic",
       "__EMPTY_38": "Cometa",
       "__EMPTY_39": "Warehouse and Logistics",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "CABILES",
-      "3/19/26": "MARCOS",
+      "3/3/26": "MARCOS",
       "__EMPTY_38": "FONTANILLA",
       "__EMPTY_39": "Thermoforming",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Caganda",
-      "3/19/26": "Mark John",
+      "3/3/26": "Mark John",
       "__EMPTY_38": "Barrameda",
       "__EMPTY_39": "Thermo Cups",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Calmante",
-      "3/19/26": "Mark Christian",
+      "3/3/26": "Mark Christian",
       "__EMPTY_38": "Oleta",
       "__EMPTY_39": "Thermo Lids",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Candido",
-      "3/19/26": "Adrian",
+      "3/3/26": "Adrian",
       "__EMPTY_38": "Andres",
       "__EMPTY_39": "Finance",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Canillo",
-      "3/19/26": "William Jr",
+      "3/3/26": "William Jr",
       "__EMPTY_38": "Osas",
       "__EMPTY_39": "Maintenance P1",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Capunitan",
-      "3/19/26": "Jennifer",
+      "3/3/26": "Jennifer",
       "__EMPTY_38": "Magistrado",
       "__EMPTY_39": "Paper Cup",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Cardano",
-      "3/19/26": "Francis",
+      "3/3/26": "Francis",
       "__EMPTY_38": "Balbin",
       "__EMPTY_39": "Moldshop",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Casamata",
-      "3/19/26": "Liana Rose",
+      "3/3/26": "Liana Rose",
       "__EMPTY_38": "Cerzo",
       "__EMPTY_39": "Labeling",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "CASAÑAS",
-      "3/19/26": "FERNANDO",
+      "3/3/26": "FERNANDO",
       "__EMPTY_38": "MAGLENTE",
       "__EMPTY_39": "Maintenance P2",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Casitas",
-      "3/19/26": "Jonnel",
+      "3/3/26": "Jonnel",
       "__EMPTY_38": "Daliva",
       "__EMPTY_39": "Thermo Lids",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Castillo",
-      "3/19/26": "Marvin",
+      "3/3/26": "Marvin",
       "__EMPTY_38": "Velando",
       "__EMPTY_39": "Warehouse and Logistics",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Castillo",
-      "3/19/26": "Marvin",
+      "3/3/26": "Marvin",
       "__EMPTY_38": "Velando",
       "__EMPTY_39": "Warehouse and Logistics",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Cauguiran",
-      "3/19/26": "Christine Joy",
+      "3/3/26": "Christine Joy",
       "__EMPTY_38": "Banogon",
       "__EMPTY_39": "Human Resources",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Cerantes",
-      "3/19/26": "May",
+      "3/3/26": "May",
       "__EMPTY_38": "Geocado",
       "__EMPTY_39": "MS P2",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Cerdeña",
-      "3/19/26": "Lambert",
+      "3/3/26": "Lambert",
       "__EMPTY_38": "Catulong",
       "__EMPTY_39": "ICM",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Clemente",
-      "3/19/26": "Jennylyn",
+      "3/3/26": "Jennylyn",
       "__EMPTY_38": "Malana",
       "__EMPTY_39": "Injection",
       "__EMPTY_40": "IM15"
     },
     {
       "Attendance": "Clemente",
-      "3/19/26": "Jennylyn",
+      "3/3/26": "Jennylyn",
       "__EMPTY_38": "Malana",
       "__EMPTY_39": "Injection",
       "__EMPTY_40": "IM15"
     },
     {
       "Attendance": "Contreras",
-      "3/19/26": "John Patrick",
+      "3/3/26": "John Patrick",
       "__EMPTY_38": "Magsino",
       "__EMPTY_39": "PDD",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Coralde",
-      "3/19/26": "Maria Theresa",
+      "3/3/26": "Maria Theresa",
       "__EMPTY_38": "Landicho",
       "__EMPTY_39": "QMD",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Cordero",
-      "3/19/26": "Mharlon",
+      "3/3/26": "Mharlon",
       "__EMPTY_38": "Persincula",
       "__EMPTY_39": "ICM",
       "__EMPTY_40": " "
@@ -9756,14 +9757,14 @@
     },
     {
       "Attendance": "Cruz",
-      "3/19/26": "Jay Bee Ann",
+      "3/3/26": "Jay Bee Ann",
       "__EMPTY_38": "Del Valle",
       "__EMPTY_39": "Human Resources",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Damas",
-      "3/19/26": "Rommel",
+      "3/3/26": "Rommel",
       "__EMPTY_38": "Temblor",
       "__EMPTY_39": "Thermo Cups",
       "__EMPTY_40": " "
@@ -9773,7 +9774,7 @@
     },
     {
       "Attendance": "DAWIS",
-      "3/19/26": "MICHAEL",
+      "3/3/26": "MICHAEL",
       "__EMPTY_38": "BALAIBO",
       "__EMPTY_39": "Extrusion",
       "__EMPTY_40": " "
@@ -9786,112 +9787,112 @@
     },
     {
       "Attendance": "De Veyra",
-      "3/19/26": "Charlyn",
+      "3/3/26": "Charlyn",
       "__EMPTY_38": "Cagara",
       "__EMPTY_39": "Injection",
       "__EMPTY_40": "IM5"
     },
     {
       "Attendance": "Del Rosario",
-      "3/19/26": "Jose Rex",
+      "3/3/26": "Jose Rex",
       "__EMPTY_38": "Balberos",
       "__EMPTY_39": "Thermo Cups",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Dela Cruz",
-      "3/19/26": "Girlie",
+      "3/3/26": "Girlie",
       "__EMPTY_38": "Chavez",
       "__EMPTY_39": "Labeling",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Dela Cruz",
-      "3/19/26": "Girlie",
+      "3/3/26": "Girlie",
       "__EMPTY_38": "Chavez",
       "__EMPTY_39": "Labeling",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Dela Cruz",
-      "3/19/26": "Girlie",
+      "3/3/26": "Girlie",
       "__EMPTY_38": "Chavez",
       "__EMPTY_39": "Labeling",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Dela Torre",
-      "3/19/26": "Michael",
+      "3/3/26": "Michael",
       "__EMPTY_38": "Arcojeres",
       "__EMPTY_39": "ICM",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Deleguer",
-      "3/19/26": "Jealyn",
+      "3/3/26": "Jealyn",
       "__EMPTY_38": "Augues",
       "__EMPTY_39": "Finance",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "DERPO",
-      "3/19/26": "ALLAN",
+      "3/3/26": "ALLAN",
       "__EMPTY_38": "BILLEN",
       "__EMPTY_39": "Maintenance P2",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Diacos",
-      "3/19/26": "Angelica",
+      "3/3/26": "Angelica",
       "__EMPTY_38": "Solomon",
       "__EMPTY_39": "Thermoforming",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Diacos",
-      "3/19/26": "Angelica",
+      "3/3/26": "Angelica",
       "__EMPTY_38": "Solomon",
       "__EMPTY_39": "Thermoforming",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Diaz",
-      "3/19/26": "Kayla",
+      "3/3/26": "Kayla",
       "__EMPTY_38": "Faderagao",
       "__EMPTY_39": "Finance",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Digno",
-      "3/19/26": "Joana Christel",
+      "3/3/26": "Joana Christel",
       "__EMPTY_38": "Atienza",
       "__EMPTY_39": "QMD",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Diola",
-      "3/19/26": "Catherine",
+      "3/3/26": "Catherine",
       "__EMPTY_38": "Almario",
       "__EMPTY_39": "Manufacturing",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Ditan",
-      "3/19/26": "Noli",
+      "3/3/26": "Noli",
       "__EMPTY_38": "Derla",
       "__EMPTY_39": "Thermo Lids",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Dominguez",
-      "3/19/26": "Aiza",
+      "3/3/26": "Aiza",
       "__EMPTY_38": "Andes",
       "__EMPTY_39": "Injection",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Ebalde",
-      "3/19/26": "April Rose",
+      "3/3/26": "April Rose",
       "__EMPTY_38": "Almodovar",
       "__EMPTY_39": "MIS",
       "__EMPTY_40": " "
@@ -9901,14 +9902,14 @@
     },
     {
       "Attendance": "Ellana",
-      "3/19/26": "Silvano Jr.",
+      "3/3/26": "Silvano Jr.",
       "__EMPTY_38": "Peneyra",
       "__EMPTY_39": "Thermo Cups",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Escober",
-      "3/19/26": "Angela",
+      "3/3/26": "Angela",
       "__EMPTY_38": "Sambajon",
       "__EMPTY_39": "Paper Cup",
       "__EMPTY_40": " "
@@ -9918,28 +9919,28 @@
     },
     {
       "Attendance": "Esperanza",
-      "3/19/26": "Mary Nel",
+      "3/3/26": "Mary Nel",
       "__EMPTY_38": "Recto",
       "__EMPTY_39": "MS P2",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Estoperez",
-      "3/19/26": "Jeffrey",
+      "3/3/26": "Jeffrey",
       "__EMPTY_38": "Baloja",
       "__EMPTY_39": "Thermo Cups",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Eva",
-      "3/19/26": "Mark Jason",
+      "3/3/26": "Mark Jason",
       "__EMPTY_38": "Rupa",
       "__EMPTY_39": "Thermoforming",
       "__EMPTY_40": "70K2"
     },
     {
       "Attendance": "Eva",
-      "3/19/26": "Mark Jason",
+      "3/3/26": "Mark Jason",
       "__EMPTY_38": "Rupa",
       "__EMPTY_39": "Thermoforming",
       "__EMPTY_40": "70K2"
@@ -9949,112 +9950,112 @@
     },
     {
       "Attendance": "FAIGMANI",
-      "3/19/26": "VITO",
+      "3/3/26": "VITO",
       "__EMPTY_38": "MOSQUERA",
       "__EMPTY_39": "Recycling",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Ferrer",
-      "3/19/26": "Eduardo Jr.",
+      "3/3/26": "Eduardo Jr.",
       "__EMPTY_38": "Santos",
       "__EMPTY_39": "Human Resources",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Francisco",
-      "3/19/26": "Joseph",
+      "3/3/26": "Joseph",
       "__EMPTY_38": "Alano",
       "__EMPTY_39": "Extrusion",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Fronda",
-      "3/19/26": "Lucila",
+      "3/3/26": "Lucila",
       "__EMPTY_38": "Terrible",
       "__EMPTY_39": "Thermo Lids",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "FURTON",
-      "3/19/26": "ALJON",
+      "3/3/26": "ALJON",
       "__EMPTY_38": "GARRATE",
       "__EMPTY_39": "Maintenance P1",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Gaila",
-      "3/19/26": "John Kenneth",
+      "3/3/26": "John Kenneth",
       "__EMPTY_38": "Acuna",
       "__EMPTY_39": "Printing",
       "__EMPTY_40": "Vandam4"
     },
     {
       "Attendance": "Gamas",
-      "3/19/26": "Richard",
+      "3/3/26": "Richard",
       "__EMPTY_38": "Escaño",
       "__EMPTY_39": "Maintenance P1",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Gamas",
-      "3/19/26": "Richard",
+      "3/3/26": "Richard",
       "__EMPTY_38": "Escaño",
       "__EMPTY_39": "Maintenance P1",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Gammad",
-      "3/19/26": "Myrna",
+      "3/3/26": "Myrna",
       "__EMPTY_38": "Simon",
       "__EMPTY_39": "Thermo Lids",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Garcia",
-      "3/19/26": "Jigs Luis",
+      "3/3/26": "Jigs Luis",
       "__EMPTY_38": "Lacorte",
       "__EMPTY_39": "Thermoforming",
       "__EMPTY_40": "KMD1"
     },
     {
       "Attendance": "Garcia",
-      "3/19/26": "Jigs Luis",
+      "3/3/26": "Jigs Luis",
       "__EMPTY_38": "Lacorte",
       "__EMPTY_39": "Thermoforming",
       "__EMPTY_40": "KMD1"
     },
     {
       "Attendance": "Gasco",
-      "3/19/26": "Deb",
+      "3/3/26": "Deb",
       "__EMPTY_38": "Tanduyan",
       "__EMPTY_39": "Injection",
       "__EMPTY_40": "IM15"
     },
     {
       "Attendance": "GONZALES",
-      "3/19/26": "LEOPOLDO",
+      "3/3/26": "LEOPOLDO",
       "__EMPTY_38": "ABADILLA",
       "__EMPTY_39": "Recycling",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Grefalda",
-      "3/19/26": "Mark Oliver",
+      "3/3/26": "Mark Oliver",
       "__EMPTY_38": " ",
       "__EMPTY_39": "ICM",
       "__EMPTY_40": "R22"
     },
     {
       "Attendance": "Hernandez",
-      "3/19/26": "Cresilyn",
+      "3/3/26": "Cresilyn",
       "__EMPTY_38": "Malabunga",
       "__EMPTY_39": "ICM",
       "__EMPTY_40": "ICM3"
     },
     {
       "Attendance": "Hilvano",
-      "3/19/26": "Trixie",
+      "3/3/26": "Trixie",
       "__EMPTY_38": " ",
       "__EMPTY_39": "Sales",
       "__EMPTY_40": " "
@@ -10064,7 +10065,7 @@
     },
     {
       "Attendance": "Jamero",
-      "3/19/26": "Sharmane",
+      "3/3/26": "Sharmane",
       "__EMPTY_38": "Pamatian",
       "__EMPTY_39": "Human Resources",
       "__EMPTY_40": " "
@@ -10074,7 +10075,7 @@
     },
     {
       "Attendance": "Jordan",
-      "3/19/26": "Emelita",
+      "3/3/26": "Emelita",
       "__EMPTY_38": "Orjalesa",
       "__EMPTY_39": "QMD",
       "__EMPTY_40": " "
@@ -10084,49 +10085,49 @@
     },
     {
       "Attendance": "Judavar",
-      "3/19/26": "Allan Glenn",
+      "3/3/26": "Allan Glenn",
       "__EMPTY_38": "Malapo",
       "__EMPTY_39": "Thermo Cups",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Labaniego",
-      "3/19/26": "Ryan",
+      "3/3/26": "Ryan",
       "__EMPTY_38": "Gulmatico",
       "__EMPTY_39": "Thermo Cups",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Laserna",
-      "3/19/26": "Jembie",
+      "3/3/26": "Jembie",
       "__EMPTY_38": "Bionzo",
       "__EMPTY_39": "ICM",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Legera",
-      "3/19/26": "Dario",
+      "3/3/26": "Dario",
       "__EMPTY_38": "Diomangay",
       "__EMPTY_39": "Warehouse and Logistics",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Lerpido",
-      "3/19/26": "Maria Kristina Cassandra",
+      "3/3/26": "Maria Kristina Cassandra",
       "__EMPTY_38": "Unto",
       "__EMPTY_39": "Human Resources",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Licaros",
-      "3/19/26": "Jaymart",
+      "3/3/26": "Jaymart",
       "__EMPTY_38": "Carapatan",
       "__EMPTY_39": "Paper Cup",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Licon",
-      "3/19/26": "Zoiloi RJ",
+      "3/3/26": "Zoiloi RJ",
       "__EMPTY_38": "Hopio",
       "__EMPTY_39": "EXTRUSION",
       "__EMPTY_40": " "
@@ -10139,7 +10140,7 @@
     },
     {
       "Attendance": "Lopez",
-      "3/19/26": "Hans",
+      "3/3/26": "Hans",
       "__EMPTY_38": "Dela Cruz",
       "__EMPTY_39": "MS P2",
       "__EMPTY_40": " "
@@ -10149,28 +10150,28 @@
     },
     {
       "Attendance": "Lorica",
-      "3/19/26": "Mark Francis",
+      "3/3/26": "Mark Francis",
       "__EMPTY_38": "Condeza",
       "__EMPTY_39": "Printing",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "LOTA",
-      "3/19/26": "THELMA",
+      "3/3/26": "THELMA",
       "__EMPTY_38": "SIMPAL",
       "__EMPTY_39": "Labeling",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Macalalad",
-      "3/19/26": "Jerick",
+      "3/3/26": "Jerick",
       "__EMPTY_38": "Insoli",
       "__EMPTY_39": "TSS",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Macaranas",
-      "3/19/26": "Albert",
+      "3/3/26": "Albert",
       "__EMPTY_38": "Alapide",
       "__EMPTY_39": "Extrusion",
       "__EMPTY_40": " "
@@ -10180,14 +10181,14 @@
     },
     {
       "Attendance": "Mahinay",
-      "3/19/26": "Mark",
+      "3/3/26": "Mark",
       "__EMPTY_38": "Ambrosio",
       "__EMPTY_39": "Printing",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Makabenta",
-      "3/19/26": "Jasper",
+      "3/3/26": "Jasper",
       "__EMPTY_38": "Daang",
       "__EMPTY_39": "Maintenance P2",
       "__EMPTY_40": " "
@@ -10197,35 +10198,35 @@
     },
     {
       "Attendance": "Malto",
-      "3/19/26": "Edgardo Jr.",
+      "3/3/26": "Edgardo Jr.",
       "__EMPTY_38": "Villas",
       "__EMPTY_39": "Warehouse and Logistics",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Manangan",
-      "3/19/26": "Ruel",
+      "3/3/26": "Ruel",
       "__EMPTY_38": "Martin",
       "__EMPTY_39": "Thermoforming",
       "__EMPTY_40": "KMD3"
     },
     {
       "Attendance": "Manglo",
-      "3/19/26": "Edna",
+      "3/3/26": "Edna",
       "__EMPTY_38": "Taboy",
       "__EMPTY_39": "QMD",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Mangubat",
-      "3/19/26": "Irene",
+      "3/3/26": "Irene",
       "__EMPTY_38": "Sapalaran",
       "__EMPTY_39": "Paper Cup",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Manjares",
-      "3/19/26": "Amiel",
+      "3/3/26": "Amiel",
       "__EMPTY_38": "Salud",
       "__EMPTY_39": "Thermoforming",
       "__EMPTY_40": " "
@@ -10235,35 +10236,35 @@
     },
     {
       "Attendance": "Mariñas",
-      "3/19/26": "Chique",
+      "3/3/26": "Chique",
       "__EMPTY_38": "Duarte",
       "__EMPTY_39": "Thermo Lids",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Marqueses",
-      "3/19/26": "Fely Cely",
+      "3/3/26": "Fely Cely",
       "__EMPTY_38": "Sumalde",
       "__EMPTY_39": "TSS",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Mata Jr.",
-      "3/19/26": "Leonardo",
+      "3/3/26": "Leonardo",
       "__EMPTY_38": "Begino",
       "__EMPTY_39": "Extrusion",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Matalab",
-      "3/19/26": "Dulce Amor",
+      "3/3/26": "Dulce Amor",
       "__EMPTY_38": "Aldueza",
       "__EMPTY_39": "Finance",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Medalla",
-      "3/19/26": "Jeanny",
+      "3/3/26": "Jeanny",
       "__EMPTY_38": " ",
       "__EMPTY_39": "Printing",
       "__EMPTY_40": " "
@@ -10273,7 +10274,7 @@
     },
     {
       "Attendance": "Mejos",
-      "3/19/26": "Jeanie",
+      "3/3/26": "Jeanie",
       "__EMPTY_38": "Gabayno",
       "__EMPTY_39": "Thermoforming",
       "__EMPTY_40": "KMD2"
@@ -10283,63 +10284,63 @@
     },
     {
       "Attendance": "Meregildo",
-      "3/19/26": "Jane",
+      "3/3/26": "Jane",
       "__EMPTY_38": "Salanguste",
       "__EMPTY_39": "Thermoforming",
       "__EMPTY_40": "KMD2"
     },
     {
       "Attendance": "Merjudio",
-      "3/19/26": "Honey May",
+      "3/3/26": "Honey May",
       "__EMPTY_38": "Mapaye",
       "__EMPTY_39": "ICM",
       "__EMPTY_40": 0
     },
     {
       "Attendance": "Mesederio",
-      "3/19/26": "Marvin",
+      "3/3/26": "Marvin",
       "__EMPTY_38": "Tresvalles",
       "__EMPTY_39": "Extrusion",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Molinas",
-      "3/19/26": "Kim Lloyd",
+      "3/3/26": "Kim Lloyd",
       "__EMPTY_38": "Guitan",
       "__EMPTY_39": "Extrusion",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Morales",
-      "3/19/26": "Justina",
+      "3/3/26": "Justina",
       "__EMPTY_38": "Tiay",
       "__EMPTY_39": "Human Resources",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Moreno",
-      "3/19/26": "Mary Ann",
+      "3/3/26": "Mary Ann",
       "__EMPTY_38": "Oren",
       "__EMPTY_39": "Human Resources",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Mujal",
-      "3/19/26": "Sheryl",
+      "3/3/26": "Sheryl",
       "__EMPTY_38": "Zara",
       "__EMPTY_39": "Extrusion",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Muldong",
-      "3/19/26": "Patrick",
+      "3/3/26": "Patrick",
       "__EMPTY_38": "Vallester",
       "__EMPTY_39": "Printing",
       "__EMPTY_40": "OMSO"
     },
     {
       "Attendance": "Munsod",
-      "3/19/26": "Isquiel",
+      "3/3/26": "Isquiel",
       "__EMPTY_38": "Quezon",
       "__EMPTY_39": "Injection",
       "__EMPTY_40": " "
@@ -10349,35 +10350,35 @@
     },
     {
       "Attendance": "Nacion",
-      "3/19/26": "Glizell",
+      "3/3/26": "Glizell",
       "__EMPTY_38": "Musa",
       "__EMPTY_39": "Thermoforming",
       "__EMPTY_40": "KMD1"
     },
     {
       "Attendance": "Nataño",
-      "3/19/26": "Marivic",
+      "3/3/26": "Marivic",
       "__EMPTY_38": "Ortega",
       "__EMPTY_39": "Injection",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Naval",
-      "3/19/26": "Rio",
+      "3/3/26": "Rio",
       "__EMPTY_38": "Ronquez",
       "__EMPTY_39": "Injection",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Necerio",
-      "3/19/26": "Rey",
+      "3/3/26": "Rey",
       "__EMPTY_38": "Manlangit",
       "__EMPTY_39": "Printing",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Novero",
-      "3/19/26": "Reymar",
+      "3/3/26": "Reymar",
       "__EMPTY_38": "Monteroso",
       "__EMPTY_39": "Moldshop",
       "__EMPTY_40": " "
@@ -10387,7 +10388,7 @@
     },
     {
       "Attendance": "Onofre",
-      "3/19/26": "Thelma",
+      "3/3/26": "Thelma",
       "__EMPTY_38": "Morales",
       "__EMPTY_39": "ICM",
       "__EMPTY_40": "R22"
@@ -10397,77 +10398,77 @@
     },
     {
       "Attendance": "Pahilanga",
-      "3/19/26": "Ludy Mae",
+      "3/3/26": "Ludy Mae",
       "__EMPTY_38": "Rosello",
       "__EMPTY_39": "Thermo Lids",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Pal",
-      "3/19/26": "Jennifer",
+      "3/3/26": "Jennifer",
       "__EMPTY_38": "Caravana",
       "__EMPTY_39": "QMS",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Pantua",
-      "3/19/26": "Irish",
+      "3/3/26": "Irish",
       "__EMPTY_38": "Bañega",
       "__EMPTY_39": "MS P1",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Parua",
-      "3/19/26": "Jonathan",
+      "3/3/26": "Jonathan",
       "__EMPTY_38": "Llames",
       "__EMPTY_39": "Thermo Cups",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Pascua",
-      "3/19/26": "Christian Ivan Dave",
+      "3/3/26": "Christian Ivan Dave",
       "__EMPTY_38": "Garcia",
       "__EMPTY_39": "Thermo Lids",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Pastoral",
-      "3/19/26": "Luisito",
+      "3/3/26": "Luisito",
       "__EMPTY_38": "Rodas",
       "__EMPTY_39": "Human Resources",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Paubsanon",
-      "3/19/26": "Leizel",
+      "3/3/26": "Leizel",
       "__EMPTY_38": "Asperga",
       "__EMPTY_39": "PPIC",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Pedrasa",
-      "3/19/26": "Mary France",
+      "3/3/26": "Mary France",
       "__EMPTY_38": "Mariscal",
       "__EMPTY_39": "QMD",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Perez",
-      "3/19/26": "Mylene",
+      "3/3/26": "Mylene",
       "__EMPTY_38": "Dizon",
       "__EMPTY_39": "Injection",
       "__EMPTY_40": "IM12"
     },
     {
       "Attendance": "Perlas",
-      "3/19/26": "Ella Marie",
+      "3/3/26": "Ella Marie",
       "__EMPTY_38": "Cezar",
       "__EMPTY_39": "Finance",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Pider",
-      "3/19/26": "Clifford",
+      "3/3/26": "Clifford",
       "__EMPTY_38": "Martinez",
       "__EMPTY_39": "Maintenance P1",
       "__EMPTY_40": " "
@@ -10480,7 +10481,7 @@
     },
     {
       "Attendance": "Pogoy",
-      "3/19/26": "Denver Richard",
+      "3/3/26": "Denver Richard",
       "__EMPTY_38": "Raz",
       "__EMPTY_39": "MIS",
       "__EMPTY_40": " "
@@ -10490,14 +10491,14 @@
     },
     {
       "Attendance": "Predas",
-      "3/19/26": "Susan",
+      "3/3/26": "Susan",
       "__EMPTY_38": "Ancheta",
       "__EMPTY_39": "Thermoforming",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Pusag",
-      "3/19/26": "Inah Patricia",
+      "3/3/26": "Inah Patricia",
       "__EMPTY_38": "Valencia",
       "__EMPTY_39": "Human Resources",
       "__EMPTY_40": " "
@@ -10507,21 +10508,21 @@
     },
     {
       "Attendance": "QUIMZON",
-      "3/19/26": "SANNY",
+      "3/3/26": "SANNY",
       "__EMPTY_38": "RODRIGO",
       "__EMPTY_39": "Maintenance P1",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Rait",
-      "3/19/26": "Kristine",
+      "3/3/26": "Kristine",
       "__EMPTY_38": "Mancenido",
       "__EMPTY_39": "Labeling",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Razal",
-      "3/19/26": "Arnold",
+      "3/3/26": "Arnold",
       "__EMPTY_38": "Aguilar",
       "__EMPTY_39": "Thermo Cups",
       "__EMPTY_40": " "
@@ -10531,28 +10532,28 @@
     },
     {
       "Attendance": "Reyes",
-      "3/19/26": "Jessica",
+      "3/3/26": "Jessica",
       "__EMPTY_38": "Pablo",
       "__EMPTY_39": "Paper Cup",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Reyes",
-      "3/19/26": "Jessica",
+      "3/3/26": "Jessica",
       "__EMPTY_38": "Pablo",
       "__EMPTY_39": "Paper Cup",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Ricarse",
-      "3/19/26": "Melanie",
+      "3/3/26": "Melanie",
       "__EMPTY_38": "Garcia",
       "__EMPTY_39": "Thermoforming",
       "__EMPTY_40": "KMD1"
     },
     {
       "Attendance": "Rojas",
-      "3/19/26": "Mary Anne",
+      "3/3/26": "Mary Anne",
       "__EMPTY_38": "Hicana",
       "__EMPTY_39": "Thermoforming",
       "__EMPTY_40": "KMD2"
@@ -10565,70 +10566,70 @@
     },
     {
       "Attendance": "Sablayan",
-      "3/19/26": "Josephine",
+      "3/3/26": "Josephine",
       "__EMPTY_38": "Gagatega",
       "__EMPTY_39": "Thermo Cups",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Salazar",
-      "3/19/26": "Fernando",
+      "3/3/26": "Fernando",
       "__EMPTY_38": "Barraga",
       "__EMPTY_39": "Warehouse and Logistics",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Salvador",
-      "3/19/26": "Mark Cedie",
+      "3/3/26": "Mark Cedie",
       "__EMPTY_38": "Frago",
       "__EMPTY_39": "Warehouse and Logistics",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Samson",
-      "3/19/26": "Kris Ann",
+      "3/3/26": "Kris Ann",
       "__EMPTY_38": "Deliola",
       "__EMPTY_39": "MS P1",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Sanchez",
-      "3/19/26": "Lea",
+      "3/3/26": "Lea",
       "__EMPTY_38": "Dolfo",
       "__EMPTY_39": "Injection",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Sarcia",
-      "3/19/26": "Eliezar",
+      "3/3/26": "Eliezar",
       "__EMPTY_38": "De Chavez",
       "__EMPTY_39": "Supply Chain Management",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Sayco",
-      "3/19/26": "Joshua",
+      "3/3/26": "Joshua",
       "__EMPTY_38": "Orqueza",
       "__EMPTY_39": "Paper Cup",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Serrado",
-      "3/19/26": "Arman",
+      "3/3/26": "Arman",
       "__EMPTY_38": "Fabillar",
       "__EMPTY_39": "Paper Cup",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Solmerano",
-      "3/19/26": "Marwin",
+      "3/3/26": "Marwin",
       "__EMPTY_38": "Abad",
       "__EMPTY_39": "Printing",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Soriano",
-      "3/19/26": "Josephine",
+      "3/3/26": "Josephine",
       "__EMPTY_38": "Antones",
       "__EMPTY_39": "Thermoforming",
       "__EMPTY_40": "KMD3"
@@ -10638,14 +10639,14 @@
     },
     {
       "Attendance": "Tambiz",
-      "3/19/26": "Chollin",
+      "3/3/26": "Chollin",
       "__EMPTY_38": "Cartagena",
       "__EMPTY_39": "Thermoforming",
       "__EMPTY_40": "KMD1"
     },
     {
       "Attendance": "Tercero",
-      "3/19/26": "Pablito",
+      "3/3/26": "Pablito",
       "__EMPTY_38": "Paz",
       "__EMPTY_39": "Moldshop",
       "__EMPTY_40": " "
@@ -10658,35 +10659,35 @@
     },
     {
       "Attendance": "VALDEZ",
-      "3/19/26": "RUEL",
+      "3/3/26": "RUEL",
       "__EMPTY_38": "CASTILLO",
       "__EMPTY_39": "Maintenance P1",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Velandria",
-      "3/19/26": "Meileen",
+      "3/3/26": "Meileen",
       "__EMPTY_38": "Cantada",
       "__EMPTY_39": "Thermo Lids",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Velasco",
-      "3/19/26": "Joy",
+      "3/3/26": "Joy",
       "__EMPTY_38": "Cadacio",
       "__EMPTY_39": "Labeling",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Vibal",
-      "3/19/26": "Mary Grace",
+      "3/3/26": "Mary Grace",
       "__EMPTY_38": "Ticoy",
       "__EMPTY_39": "Injection",
       "__EMPTY_40": " "
     },
     {
       "Attendance": "Vicente",
-      "3/19/26": "Connie",
+      "3/3/26": "Connie",
       "__EMPTY_38": " ",
       "__EMPTY_39": "Thermo Cups",
       "__EMPTY_40": " "
@@ -10696,21 +10697,21 @@
     },
     {
       "Attendance": "Villaspen",
-      "3/19/26": "Chezee",
+      "3/3/26": "Chezee",
       "__EMPTY_38": "Ganuelas",
       "__EMPTY_39": "Warehouse and Logistics",
       "__EMPTY_40": "Vandam6"
     },
     {
       "Attendance": "Virtucio",
-      "3/19/26": "Jesly Joy",
+      "3/3/26": "Jesly Joy",
       "__EMPTY_38": "Umali",
       "__EMPTY_39": "Injection",
       "__EMPTY_40": "IM13"
     },
     {
       "Attendance": "Yerro",
-      "3/19/26": "Rommel",
+      "3/3/26": "Rommel",
       "__EMPTY_38": "Murillo",
       "__EMPTY_39": "Facilities",
       "__EMPTY_40": " "
@@ -10732,7 +10733,7 @@
     },
     {
       "__EMPTY_1": "PLANT 2",
-      "__EMPTY_4": 0.660714285714286
+      "__EMPTY_4": 0.6607142857142857
     },
     {
       "__EMPTY": "Completed Number of SKU's",
@@ -10755,54 +10756,54 @@
       "__EMPTY_5": 0,
       "__EMPTY_6": 0,
       "__EMPTY_7": 0.659390294117647,
-      "__EMPTY_8": 0.706389264705882,
+      "__EMPTY_8": 0.7063892647058824,
       "__EMPTY_9": 0.6949775,
-      "__EMPTY_10": 0.694462794117647,
-      "__EMPTY_11": 0.704609852941177,
-      "__EMPTY_12": 0.557845147058823,
-      "__EMPTY_13": 0.154411764705882,
-      "__EMPTY_14": 0.722403970588235,
-      "__EMPTY_15": 0.776761029411765,
-      "__EMPTY_16": 0.825345147058824,
-      "__EMPTY_17": 0.840051029411765,
+      "__EMPTY_10": 0.6944627941176471,
+      "__EMPTY_11": 0.7046098529411765,
+      "__EMPTY_12": 0.5578451470588235,
+      "__EMPTY_13": 0.15441176470588236,
+      "__EMPTY_14": 0.7224039705882352,
+      "__EMPTY_15": 0.7767610294117647,
+      "__EMPTY_16": 0.8253451470588236,
+      "__EMPTY_17": 0.8400510294117647,
       "__EMPTY_18": 0.7825,
       "__EMPTY_19": 0.705735294117647,
       "__EMPTY_20": 0.00823529411764706,
-      "__EMPTY_21": 0.639705882352941,
-      "__EMPTY_22": 0.691176470588235,
-      "__EMPTY_23": 0.639705882352941,
-      "__EMPTY_24": 0.625735294117647,
-      "__EMPTY_25": 0.644705882352941,
-      "__EMPTY_26": 0.676470588235294,
-      "__EMPTY_27": 0.153970588235294,
+      "__EMPTY_21": 0.6397058823529411,
+      "__EMPTY_22": 0.6911764705882353,
+      "__EMPTY_23": 0.6397058823529411,
+      "__EMPTY_24": 0.6257352941176471,
+      "__EMPTY_25": 0.6447058823529411,
+      "__EMPTY_26": 0.6764705882352942,
+      "__EMPTY_27": 0.1539705882352941,
       "__EMPTY_28": 0.66375,
-      "__EMPTY_29": 0.647132352941176,
-      "__EMPTY_30": 0.639779411764706,
-      "__EMPTY_31": 0.632426470588235,
+      "__EMPTY_29": 0.6471323529411764,
+      "__EMPTY_30": 0.6397794117647059,
+      "__EMPTY_31": 0.6324264705882353,
       "__EMPTY_32": 0.56625,
-      "__EMPTY_33": 0.489044117647059,
-      "__EMPTY_34": 0.0294117647058824,
+      "__EMPTY_33": 0.4890441176470588,
+      "__EMPTY_34": 0.029411764705882353,
       "__EMPTY_35": 0,
-      "__EMPTY_36": 0.5345930028463,
+      "__EMPTY_36": 0.5345930028462998,
       "__EMPTY_38": "",
       "__EMPTY_39": "",
-      "__EMPTY_40": 0.399210143773638,
-      "__EMPTY_41": 0.700267953409291,
-      "__EMPTY_42": 0.899897944220369,
+      "__EMPTY_40": 0.3992101437736376,
+      "__EMPTY_41": 0.7002679534092913,
+      "__EMPTY_42": 0.8998979442203694,
       "__EMPTY_43": 0.979352004416448,
-      "__EMPTY_44": 1.00667933255512,
-      "__EMPTY_45": 1.1618631250977,
-      "__EMPTY_46": 0.779047619047619,
-      "__EMPTY_47": 0.629959569224242,
-      "__EMPTY_48": 0.876888663804732,
-      "__EMPTY_49": 0.679344309965154,
+      "__EMPTY_44": 1.0066793325551249,
+      "__EMPTY_45": 1.161863125097704,
+      "__EMPTY_46": 0.7790476190476191,
+      "__EMPTY_47": 0.6299595692242425,
+      "__EMPTY_48": 0.8768886638047322,
+      "__EMPTY_49": 0.6793443099651536,
       "__EMPTY_50": 0.640463893387429,
-      "__EMPTY_51": 0.780180417214809,
-      "__EMPTY_52": 0.692535944988539,
-      "__EMPTY_53": 22.0178571428571,
-      "__EMPTY_54": 0.861480459770115,
-      "__EMPTY_55": 1.01255319148936,
-      "__EMPTY_56": 1.05711724137931,
+      "__EMPTY_51": 0.7801804172148092,
+      "__EMPTY_52": 0.6925359449885393,
+      "__EMPTY_53": 22.017857142857142,
+      "__EMPTY_54": 0.8614804597701149,
+      "__EMPTY_55": 1.0125531914893617,
+      "__EMPTY_56": 1.0571172413793104,
       "__EMPTY_57": 0,
       "__EMPTY_58": 0,
       "__EMPTY_59": 0,
@@ -10888,12 +10889,12 @@
       "__EMPTY_70": 112921165,
       "__EMPTY_72": 73465205,
       "__EMPTY_74": 61090292,
-      "HITRATE vs": 0.831554094213717,
-      "__EMPTY_76": 0.540999484020555
+      "HITRATE vs": 0.8315540942137165,
+      "__EMPTY_76": 0.5409994840205554
     },
     {
       "__EMPTY": "% OTIF",
-      "__EMPTY_1": 0.660714285714286,
+      "__EMPTY_1": 0.6607142857142857,
       "__EMPTY_4": "Installed Capacity => ",
       "__EMPTY_5": 6800000,
       "__EMPTY_6": 6800000,
@@ -10961,11 +10962,11 @@
       "__EMPTY_72": "Target",
       "__EMPTY_74": "Actual",
       "HITRATE vs": "OTIF",
-      "__EMPTY_76": 0.660714285714286
+      "__EMPTY_76": 0.6607142857142857
     },
     {
       "__EMPTY": "% HITRATE",
-      "__EMPTY_1": 0.540999484020555,
+      "__EMPTY_1": 0.5409994840205554,
       "__EMPTY_5": 1,
       "__EMPTY_6": 2,
       "__EMPTY_7": 3,
@@ -11161,9 +11162,9 @@
       "__EMPTY_72": 1260005,
       "__EMPTY_74": 1370000,
       "HITRATE vs": -109995,
-      "__EMPTY_76": 1.08729727262987,
+      "__EMPTY_76": 1.0872972726298704,
       "__EMPTY_77": 130000,
-      "__EMPTY_79": -0.846115384615385,
+      "__EMPTY_79": -0.8461153846153846,
       "__EMPTY_88": "Plant",
       "__EMPTY_89": "Date",
       "__EMPTY_90": "Week",
@@ -11227,12 +11228,12 @@
       "__EMPTY_72": 8056000,
       "__EMPTY_74": 9262000,
       "HITRATE vs": 3794000,
-      "__EMPTY_76": 0.709405637254902,
+      "__EMPTY_76": 0.7094056372549019,
       "__EMPTY_77": 700000,
       "__EMPTY_79": 5.42,
       "__EMPTY_81": 6480000,
       "__EMPTY_82": 15742000,
-      "__EMPTY_83": 1.20572916666667,
+      "__EMPTY_83": 1.2057291666666667,
       "__EMPTY_88": 1,
       "__EMPTY_89": 45931,
       "__EMPTY_90": "W1 ",
@@ -12119,7 +12120,7 @@
       "HITRATE vs": 50000,
       "__EMPTY_76": 0,
       "__EMPTY_77": 150000,
-      "__EMPTY_79": 0.333333333333333,
+      "__EMPTY_79": 0.3333333333333333,
       "__EMPTY_88": 1,
       "__EMPTY_89": 45946,
       "__EMPTY_90": "W3",
@@ -12328,7 +12329,7 @@
       "__EMPTY_72": 300000,
       "__EMPTY_74": 545000,
       "HITRATE vs": -48000,
-      "__EMPTY_76": 1.09657947686117,
+      "__EMPTY_76": 1.096579476861167,
       "__EMPTY_77": 150000,
       "__EMPTY_79": -0.32,
       "__EMPTY_88": 1,
@@ -12444,7 +12445,7 @@
       "__EMPTY_72": 1120000,
       "__EMPTY_74": 896800,
       "HITRATE vs": 223200,
-      "__EMPTY_76": 0.800714285714286,
+      "__EMPTY_76": 0.8007142857142857,
       "__EMPTY_77": 150000,
       "__EMPTY_79": 1.488,
       "__EMPTY_88": 1,
@@ -12615,7 +12616,7 @@
       "HITRATE vs": 355888,
       "__EMPTY_76": 0.644112,
       "__EMPTY_77": 150000,
-      "__EMPTY_79": 2.37258666666667,
+      "__EMPTY_79": 2.372586666666667,
       "__EMPTY_88": 1,
       "__EMPTY_89": 45955,
       "__EMPTY_90": "W4",
@@ -12664,7 +12665,7 @@
       "HITRATE vs": 1000000,
       "__EMPTY_76": 0,
       "__EMPTY_77": 150000,
-      "__EMPTY_79": 6.66666666666667,
+      "__EMPTY_79": 6.666666666666667,
       "__EMPTY_88": 1,
       "__EMPTY_89": 45956,
       "__EMPTY_90": "W4",
@@ -12713,7 +12714,7 @@
       "HITRATE vs": 500000,
       "__EMPTY_76": 0,
       "__EMPTY_77": 150000,
-      "__EMPTY_79": 3.33333333333333,
+      "__EMPTY_79": 3.3333333333333335,
       "__EMPTY_88": 1,
       "__EMPTY_89": 45957,
       "__EMPTY_90": "W5",
@@ -12817,7 +12818,7 @@
       "HITRATE vs": 1412500,
       "__EMPTY_76": 0.29375,
       "__EMPTY_77": 150000,
-      "__EMPTY_79": 9.41666666666667,
+      "__EMPTY_79": 9.416666666666666,
       "__EMPTY_88": 1,
       "__EMPTY_89": 45959,
       "__EMPTY_90": "W5",
@@ -12882,7 +12883,7 @@
       "HITRATE vs": 9712000,
       "__EMPTY_76": 0.501948717948718,
       "__EMPTY_77": 1500000,
-      "__EMPTY_79": 6.47466666666667,
+      "__EMPTY_79": 6.474666666666667,
       "__EMPTY_88": 1,
       "__EMPTY_89": 45960,
       "__EMPTY_90": "W5",
@@ -12946,9 +12947,9 @@
       "__EMPTY_72": 21970000,
       "__EMPTY_74": 14686000,
       "HITRATE vs": 7814000,
-      "__EMPTY_76": 0.652711111111111,
+      "__EMPTY_76": 0.6527111111111111,
       "__EMPTY_77": 1500000,
-      "__EMPTY_79": 5.20933333333333,
+      "__EMPTY_79": 5.209333333333333,
       "__EMPTY_88": 1,
       "__EMPTY_89": 45961,
       "__EMPTY_90": "W5",
@@ -13056,7 +13057,7 @@
       "__EMPTY_72": 900000,
       "__EMPTY_74": 952000,
       "HITRATE vs": -52000,
-      "__EMPTY_76": 1.05777777777778,
+      "__EMPTY_76": 1.0577777777777777,
       "__EMPTY_77": 500000,
       "__EMPTY_79": -0.104,
       "__EMPTY_88": 2,
@@ -13258,7 +13259,7 @@
       "HITRATE vs": -7000,
       "__EMPTY_76": 1.07,
       "__EMPTY_77": 60000,
-      "__EMPTY_79": -0.116666666666667,
+      "__EMPTY_79": -0.11666666666666667,
       "__EMPTY_88": 2,
       "__EMPTY_89": 45936,
       "__EMPTY_90": "W2",
@@ -13389,7 +13390,7 @@
       "__EMPTY_72": 1700000,
       "__EMPTY_74": 4840000,
       "HITRATE vs": -3140000,
-      "__EMPTY_76": 2.84705882352941,
+      "__EMPTY_76": 2.847058823529412,
       "__EMPTY_77": 800000,
       "__EMPTY_79": -3.925,
       "__EMPTY_88": 2,
@@ -13460,9 +13461,9 @@
       "__EMPTY_72": 6400000,
       "__EMPTY_74": 618000,
       "HITRATE vs": 12982000,
-      "__EMPTY_76": 0.0454411764705882,
+      "__EMPTY_76": 0.045441176470588235,
       "__EMPTY_77": 700000,
-      "__EMPTY_79": 18.5457142857143,
+      "__EMPTY_79": 18.545714285714286,
       "__EMPTY_88": 2,
       "__EMPTY_89": 45941,
       "__EMPTY_90": "W2",
@@ -13493,7 +13494,7 @@
       "__EMPTY_72": 4500000,
       "__EMPTY_74": 2120000,
       "HITRATE vs": 2380000,
-      "__EMPTY_76": 0.471111111111111,
+      "__EMPTY_76": 0.4711111111111111,
       "__EMPTY_77": 800000,
       "__EMPTY_79": 2.975,
       "__EMPTY_88": 2,
@@ -13582,9 +13583,9 @@
       "__EMPTY_72": 750000,
       "__EMPTY_74": 1130000,
       "HITRATE vs": 670000,
-      "__EMPTY_76": 0.627777777777778,
+      "__EMPTY_76": 0.6277777777777778,
       "__EMPTY_77": 150000,
-      "__EMPTY_79": 4.46666666666667,
+      "__EMPTY_79": 4.466666666666667,
       "__EMPTY_88": 2,
       "__EMPTY_89": 45944,
       "__EMPTY_90": "W3",
@@ -14040,7 +14041,7 @@
     },
     {
       "__EMPTY": "%OTIF",
-      "__EMPTY_76": 0.660714285714286,
+      "__EMPTY_76": 0.6607142857142857,
       "__EMPTY_88": 1,
       "__EMPTY_89": 45935,
       "__EMPTY_90": "W1 ",
@@ -14492,7 +14493,7 @@
       "__EMPTY_2": "1oz Lid",
       "__EMPTY_3": "Oct. 29",
       "__EMPTY_4": "Dull cutting plug and plate, wear and tear",
-      "__EMPTY_5": "Containment action:\nRun with 30% rejection-for rework/sorting\n\nLong term Action:\nReplace worn-out cutting plug and and Plate.\nPR#100641\nPO for approval",
+      "__EMPTY_5": "Containment action:\r\nRun with 30% rejection-for rework/sorting\r\n\r\nLong term Action:\r\nReplace worn-out cutting plug and and Plate.\r\nPR#100641\r\nPO for approval",
       "__EMPTY_6": "Running",
       "__EMPTY_7": "TBA",
       "__EMPTY_8": "Running with 30% rejection"
@@ -14506,7 +14507,7 @@
       "__EMPTY_5": "ongoing repair",
       "__EMPTY_6": "Running",
       "__EMPTY_7": "Nov 25, 6pm",
-      "__EMPTY_8": "running max 1 machine only\nDONE -Nov 27"
+      "__EMPTY_8": "running max 1 machine only\r\nDONE -Nov 27"
     },
     {
       "__EMPTY": "Plant1",
@@ -14536,7 +14537,7 @@
       "__EMPTY_2": "Fork",
       "__EMPTY_3": "Nov. 08",
       "__EMPTY_4": "Wornout toggle pin and linear bearing",
-      "__EMPTY_5": "Transfer CPU board from IM17 to IM14 to run 3rd Fork Mold. Supply and Labor c/o ASIA QUEST\nPO# 100557 - for Approval",
+      "__EMPTY_5": "Transfer CPU board from IM17 to IM14 to run 3rd Fork Mold. Supply and Labor c/o ASIA QUEST\r\nPO# 100557 - for Approval",
       "__EMPTY_6": "Not running",
       "__EMPTY_7": "Dec. 15",
       "__EMPTY_8": " "
@@ -14550,7 +14551,7 @@
       "__EMPTY_5": "For in-house fabrication - ongoing.",
       "__EMPTY_6": "Running",
       "__EMPTY_7": "Nov. 26",
-      "__EMPTY_8": "Encounterred water leak during insert assembly. Updated timeline to up Nov. 26 2pm.\nDONE. running Nov 27"
+      "__EMPTY_8": "Encounterred water leak during insert assembly. Updated timeline to up Nov. 26 2pm.\r\nDONE. running Nov 27"
     },
     {
       "__EMPTY": "Plant2",
@@ -14558,7 +14559,7 @@
       "__EMPTY_2": "16oz SDD papaer",
       "__EMPTY_3": "Nov. 24",
       "__EMPTY_4": "Cam follower bearing worn out, normal wear and tear",
-      "__EMPTY_5": "Parts need replacement, OEM 2,166 EUR.\nUse parts from PCM10 - for testing",
+      "__EMPTY_5": "Parts need replacement, OEM 2,166 EUR.\r\nUse parts from PCM10 - for testing",
       "__EMPTY_6": "Not running",
       "__EMPTY_7": "Dec. 01",
       "__EMPTY_8": "Critical SKU for December"

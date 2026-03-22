@@ -1,32 +1,37 @@
+// src/routes/stockItemRoutes.js
 const express = require('express');
 const router = express.Router();
-const {
-  getStockItems,
-  getStockItemById,
-  createStockItem,
-  updateStockItem,
-  deleteStockItem,
-  updateStockQuantity,
-  getLowStockItems,
-  importStockItems,
-} = require('../controllers/stockItemController');
 const { protect, authorize } = require('../middleware/authMiddleware');
-const upload = require('../middleware/uploadMiddleware');
+const { 
+  getStockItems, 
+  getStockItemById, 
+  createStockItem, 
+  updateStockItem, 
+  deleteStockItem,
+  getLowStockItems,
+  getStockByCategory,
+  updateStockQuantity,
+  bulkImportStock,
+  getStockSummary,
+  getStockMovements
+} = require('../controllers/stockItemController');
 
-router.route('/')
-  .get(protect, getStockItems)
-  .post(protect, authorize('admin', 'manager'), createStockItem);
+// All routes require authentication
+router.use(protect);
 
-router.get('/low-stock', protect, getLowStockItems);
+// Public stock endpoints (for all authenticated users)
+router.get('/', getStockItems);
+router.get('/low-stock', getLowStockItems);
+router.get('/summary', getStockSummary);
+router.get('/category/:category', getStockByCategory);
+router.get('/movements/:id', getStockMovements);
+router.get('/:id', getStockItemById);
 
-router.route('/import')
-  .post(protect, authorize('admin'), upload.single('file'), importStockItems);
-
-router.put('/:id/quantity', protect, updateStockQuantity);
-
-router.route('/:id')
-  .get(protect, getStockItemById)
-  .put(protect, authorize('admin', 'manager'), updateStockItem)
-  .delete(protect, authorize('admin'), deleteStockItem);
+// Admin/Manager only endpoints
+router.post('/', authorize('admin', 'manager'), createStockItem);
+router.put('/:id', authorize('admin', 'manager'), updateStockItem);
+router.patch('/:id/quantity', authorize('admin', 'manager', 'supervisor'), updateStockQuantity);
+router.delete('/:id', authorize('admin'), deleteStockItem);
+router.post('/bulk-import', authorize('admin', 'manager'), bulkImportStock);
 
 module.exports = router;

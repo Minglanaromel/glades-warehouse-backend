@@ -1,127 +1,130 @@
+// src/controllers/cctvController.js
 const CCTV = require('../models/CCTV');
 
-// @desc    Get all cameras
-// @route   GET /api/cctv
-// @access  Private
 const getCameras = async (req, res) => {
   try {
-    const cameras = await CCTV.find({})
-      .populate('createdBy', 'name email')
-      .sort({ createdAt: -1 });
-
-    res.json(cameras);
+    const cameras = CCTV.findAll();
+    res.json({ success: true, data: cameras });
   } catch (error) {
-    res.status(500).json({ message: error.message });
+    console.error('Error fetching cameras:', error);
+    res.status(500).json({ success: false, message: 'Error fetching cameras' });
   }
 };
 
-// @desc    Get camera by ID
-// @route   GET /api/cctv/:id
-// @access  Private
 const getCameraById = async (req, res) => {
   try {
-    const camera = await CCTV.findById(req.params.id)
-      .populate('createdBy', 'name email');
-    
-    if (camera) {
-      res.json(camera);
-    } else {
-      res.status(404).json({ message: 'Camera not found' });
+    const camera = CCTV.findById(req.params.id);
+    if (!camera) {
+      return res.status(404).json({ success: false, message: 'Camera not found' });
     }
+    res.json({ success: true, data: camera });
   } catch (error) {
-    res.status(500).json({ message: error.message });
+    console.error('Error fetching camera:', error);
+    res.status(500).json({ success: false, message: 'Error fetching camera' });
   }
 };
 
-// @desc    Create a camera
-// @route   POST /api/cctv
-// @access  Private/Admin
 const createCamera = async (req, res) => {
   try {
-    const camera = await CCTV.create({
-      ...req.body,
-      createdBy: req.user._id,
+    const { name, url, location, status, streamUrl } = req.body;
+    
+    if (!name || !url) {
+      return res.status(400).json({ 
+        success: false, 
+        message: 'Please provide name and URL' 
+      });
+    }
+    
+    const camera = CCTV.create({
+      name,
+      url,
+      location: location || '',
+      status: status || 'active',
+      streamUrl: streamUrl || url
     });
-
-    res.status(201).json(camera);
+    
+    res.status(201).json({ success: true, data: camera });
   } catch (error) {
-    res.status(500).json({ message: error.message });
+    console.error('Error creating camera:', error);
+    res.status(500).json({ success: false, message: 'Error creating camera' });
   }
 };
 
-// @desc    Update camera
-// @route   PUT /api/cctv/:id
-// @access  Private/Admin
 const updateCamera = async (req, res) => {
   try {
-    const camera = await CCTV.findById(req.params.id);
-    
-    if (camera) {
-      Object.assign(camera, req.body);
-      const updatedCamera = await camera.save();
-      res.json(updatedCamera);
-    } else {
-      res.status(404).json({ message: 'Camera not found' });
-    }
+    const camera = CCTV.update(req.params.id, req.body);
+    res.json({ success: true, data: camera });
   } catch (error) {
-    res.status(500).json({ message: error.message });
+    console.error('Error updating camera:', error);
+    res.status(500).json({ success: false, message: error.message });
   }
 };
 
-// @desc    Delete camera
-// @route   DELETE /api/cctv/:id
-// @access  Private/Admin
 const deleteCamera = async (req, res) => {
   try {
-    const camera = await CCTV.findById(req.params.id);
-    
-    if (camera) {
-      await camera.deleteOne();
-      res.json({ message: 'Camera removed' });
-    } else {
-      res.status(404).json({ message: 'Camera not found' });
-    }
+    CCTV.delete(req.params.id);
+    res.json({ success: true, message: 'Camera deleted successfully' });
   } catch (error) {
-    res.status(500).json({ message: error.message });
+    console.error('Error deleting camera:', error);
+    res.status(500).json({ success: false, message: 'Error deleting camera' });
   }
 };
 
-// @desc    Add recording
-// @route   POST /api/cctv/:id/recordings
-// @access  Private/Admin
-const addRecording = async (req, res) => {
+const getCameraStream = async (req, res) => {
   try {
-    const camera = await CCTV.findById(req.params.id);
-    
-    if (camera) {
-      camera.recordings.push(req.body);
-      await camera.save();
-      res.json(camera);
-    } else {
-      res.status(404).json({ message: 'Camera not found' });
+    const camera = CCTV.findById(req.params.id);
+    if (!camera) {
+      return res.status(404).json({ success: false, message: 'Camera not found' });
     }
+    res.json({ success: true, data: { streamUrl: camera.streamUrl || camera.url } });
   } catch (error) {
-    res.status(500).json({ message: error.message });
+    console.error('Error getting stream:', error);
+    res.status(500).json({ success: false, message: 'Error getting stream' });
   }
 };
 
-// @desc    Update camera status
-// @route   PUT /api/cctv/:id/status
-// @access  Private/Admin
-const updateCameraStatus = async (req, res) => {
+const toggleCamera = async (req, res) => {
   try {
-    const { status } = req.body;
-    const camera = await CCTV.findById(req.params.id);
-    
-    if (camera) {
-      camera.status = status;
-      await camera.save();
-      res.json(camera);
-    } else {
-      res.status(404).json({ message: 'Camera not found' });
+    const camera = CCTV.findById(req.params.id);
+    if (!camera) {
+      return res.status(404).json({ success: false, message: 'Camera not found' });
     }
+    
+    const updated = CCTV.update(req.params.id, { 
+      isActive: !camera.isActive,
+      status: !camera.isActive ? 'active' : 'inactive'
+    });
+    
+    res.json({ 
+      success: true, 
+      data: updated,
+      message: `Camera ${updated.isActive ? 'activated' : 'deactivated'} successfully`
+    });
   } catch (error) {
-    res.status(500).json({ message: error.message });
+    console.error('Error toggling camera:', error);
+    res.status(500).json({ success: false, message: 'Error toggling camera' });
+  }
+};
+
+const getCameraStatus = async (req, res) => {
+  try {
+    const cameras = CCTV.findAll();
+    const stats = {
+      total: cameras.length,
+      active: cameras.filter(c => c.isActive).length,
+      inactive: cameras.filter(c => !c.isActive).length,
+      byLocation: {}
+    };
+    
+    cameras.forEach(camera => {
+      const location = camera.location || 'Unknown';
+      stats.byLocation[location] = (stats.byLocation[location] || 0) + 1;
+    });
+    
+    res.json({ success: true, data: stats });
+  } catch (error) {
+    console.error('Error getting camera status:', error);
+    res.status(500).json({ success: false, message: 'Error getting camera status' });
   }
 };
 
@@ -131,6 +134,7 @@ module.exports = {
   createCamera,
   updateCamera,
   deleteCamera,
-  addRecording,
-  updateCameraStatus,
+  getCameraStream,
+  toggleCamera,
+  getCameraStatus
 };

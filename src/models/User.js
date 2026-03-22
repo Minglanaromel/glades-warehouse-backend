@@ -1,75 +1,132 @@
-const { DataTypes } = require('sequelize');
+const fs = require('fs');
+const path = require('path');
 const bcrypt = require('bcryptjs');
-const { sequelize } = require('../config/database');
 
-const User = sequelize.define('User', {
-  id: {
-    type: DataTypes.INTEGER,
-    primaryKey: true,
-    autoIncrement: true
-  },
-  name: {
-    type: DataTypes.STRING,
-    allowNull: false,
-    validate: {
-      notEmpty: { msg: 'Please add a name' }
-    }
-  },
-  email: {
-    type: DataTypes.STRING,
-    allowNull: false,
-    unique: true,
-    validate: {
-      isEmail: { msg: 'Please add a valid email' }
-    }
-  },
-  password: {
-    type: DataTypes.STRING,
-    allowNull: false,
-    validate: {
-      len: {
-        args: [6, 100],
-        msg: 'Password must be at least 6 characters'
-      }
-    }
-  },
-  role: {
-    type: DataTypes.ENUM('admin', 'manager', 'user'),
-    defaultValue: 'user'
-  },
-  department: {
-    type: DataTypes.STRING,
-    allowNull: true
-  },
-  isActive: {
-    type: DataTypes.BOOLEAN,
-    defaultValue: true
-  },
-  lastLogin: {
-    type: DataTypes.DATE,
-    allowNull: true
-  }
-}, {
-  timestamps: true,
-  hooks: {
-    beforeCreate: async (user) => {
-      if (user.password) {
-        const salt = await bcrypt.genSalt(10);
-        user.password = await bcrypt.hash(user.password, salt);
-      }
-    },
-    beforeUpdate: async (user) => {
-      if (user.changed('password')) {
-        const salt = await bcrypt.genSalt(10);
-        user.password = await bcrypt.hash(user.password, salt);
-      }
-    }
-  }
-});
+const USERS_FILE = path.join(__dirname, '../data/users.json');
 
-// Instance method to match password
-User.prototype.matchPassword = async function(enteredPassword) {
-  return await bcrypt.compare(enteredPassword, this.password);
-};
+class User {
+  static findAll() {
+    if (!fs.existsSync(USERS_FILE)) {
+      return [];
+    }
+    const data = fs.readFileSync(USERS_FILE, 'utf8');
+    return JSON.parse(data);
+  }
+
+  static save(users) {
+    fs.writeFileSync(USERS_FILE, JSON.stringify(users, null, 2));
+  }
+
+  static async create(userData) {
+    const users = this.findAll();
+    const existingUser = users.find(u => u.email === userData.email || u.username === userData.username);
+    
+    if (existingUser) {
+      throw new Error('User already exists');
+    }
+
+    const hashedPassword = await bcrypt.hash(userData.password, 10);
+    const newUser = {
+      id: Date.now().toString(),
+      username: userData.username,
+      email: userData.email,
+      password: hashedPassword,
+      name: userData.name || userData.username,
+      role: userData.role || 'user',
+      department: userData.department || '',
+      plant: userData.plant || 'Both',
+      phone: userData.phone || '',
+      isActive: true,
+      createdAt: new Date().toISOString(),
+      updatedAt: new Date().toISOString()
+    };
+
+    users.push(newUser);
+    this.save(users);
+    
+    const { password, ...userWithoutPassword } = newUser;
+    return userWithoutPassword;
+  }
+
+  static async findByEmail(email) {
+    const users = this.findAll();
+    return users.find(u => u.email === email);
+  }
+
+  static async findByUsername(username) {
+    const users = this.findAll();
+    return users.find(u => u.username === username);
+  }
+
+  static async findById(id) {
+    const users = this.findAll();
+    return users.find(u => String(u.id) === String(id));
+  }
+
+  static async validatePassword(user, password) {
+    return await bcrypt.compare(password, user.password);
+  }
+
+  static async update(id, updateData) {
+    const users = this.findAll();
+    const index = users.findIndex(u => String(u.id) === String(id));
+    
+    if (index === -1) {
+      throw new Error('User not found');
+    }
+
+    if (updateData.password) {
+      updateData.password = await bcrypt.hash(updateData.password, 10);
+    }
+
+    users[index] = { 
+      ...users[index], 
+      ...updateData,
+      updatedAt: new Date().toISOString()
+    };
+    this.save(users);
+    
+    const { password, ...userWithoutPassword } = users[index];
+    return userWithoutPassword;
+  }
+
+  static async delete(id) {
+    const users = this.findAll();
+    const filteredUsers = users.filter(u => String(u.id) !== String(id));
+    this.save(filteredUsers);
+    return true;
+  }
+
+  static async toggleActive(id) {
+    const users = this.findAll();
+    const index = users.findIndex(u => String(u.id) === String(id));
+    
+    if (index === -1) {
+      throw new Error('User not found');
+    }
+    
+    users[index].isActive = !users[index].isActive;
+    users[index].updatedAt = new Date().toISOString();
+    this.save(users);
+    
+    const { password, ...userWithoutPassword } = users[index];
+    return userWithoutPassword;
+  }
+
+  static async getStats() {
+    const users = this.findAll();
+    return {
+      total: users.length,
+      active: users.filter(u => u.isActive).length,
+      inactive: users.filter(u => !u.isActive).length,
+      byRole: {
+        admin: users.filter(u => u.role === 'admin').length,
+        manager: users.filter(u => u.role === 'manager').length,
+        supervisor: users.filter(u => u.role === 'supervisor').length,
+        user: users.filter(u => u.role === 'user').length
+      }
+    };
+  }
+}
 
 module.exports = User;

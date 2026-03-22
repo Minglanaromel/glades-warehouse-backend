@@ -1,0 +1,19 @@
+[
+  {
+    "id": "1",
+    "sku": "ELEC000001",
+    "name": "Laptop Computer",
+    "description": "High-performance laptop for business use",
+    "category": "Electronics",
+    "price": 999.99,
+    "cost": 750.00,
+    "currentStock": 25,
+    "minStock": 10,
+    "maxStock": 50,
+    "location": "Warehouse A, Shelf 1",
+    "isActive": true,
+    "createdBy": "3",
+    "createdAt": "2026-03-21T10:00:00.000Z",
+    "updatedAt": "2026-03-21T10:00:00.000Z"
+  }
+]

@@ -1,176 +1,161 @@
-const Dashboard = require('../models/Dashboard');
-const StockItem = require('../models/StockItem');
-const PurchaseOrder = require('../models/PurchaseOrder');
-const SalesOrder = require('../models/SalesOrder');
-const Customer = require('../models/Customer');
-const Supplier = require('../models/Supplier');
+// src/controllers/dashboardController.js
+const excelParser = require('../utils/excelParser');
 
-// @desc    Get user dashboard
-// @route   GET /api/dashboard
-// @access  Private
-const getDashboard = async (req, res) => {
-  try {
-    let dashboard = await Dashboard.findOne({ user: req.user._id });
-    
-    if (!dashboard) {
-      // Create default dashboard
-      dashboard = await Dashboard.create({
-        user: req.user._id,
-        widgets: getDefaultWidgets(req.user.role),
-        layout: 'grid',
-        isDefault: true
-      });
-    }
-
-    res.json(dashboard);
-  } catch (error) {
-    res.status(500).json({ message: error.message });
-  }
-};
-
-// @desc    Update dashboard layout
-// @route   PUT /api/dashboard/layout
-// @access  Private
-const updateLayout = async (req, res) => {
-  try {
-    const { widgets, layout } = req.body;
-    
-    let dashboard = await Dashboard.findOne({ user: req.user._id });
-    
-    if (dashboard) {
-      dashboard.widgets = widgets || dashboard.widgets;
-      dashboard.layout = layout || dashboard.layout;
-      await dashboard.save();
-      res.json(dashboard);
-    } else {
-      res.status(404).json({ message: 'Dashboard not found' });
-    }
-  } catch (error) {
-    res.status(500).json({ message: error.message });
-  }
-};
-
-// @desc    Get dashboard statistics
-// @route   GET /api/dashboard/stats
-// @access  Private
 const getDashboardStats = async (req, res) => {
   try {
-    const [
-      totalCustomers,
-      totalSuppliers,
-      totalStockItems,
-      lowStockItems,
-      pendingPOs,
-      pendingSOs,
-      recentPOs,
-      recentSOs
-    ] = await Promise.all([
-      Customer.countDocuments({ status: 'active' }),
-      Supplier.countDocuments({ status: 'active' }),
-      StockItem.countDocuments({ status: 'active' }),
-      StockItem.countDocuments({
-        $expr: { $lte: [ "$quantity", "$reorderLevel" ] }
-      }),
-      PurchaseOrder.countDocuments({ status: 'pending' }),
-      SalesOrder.countDocuments({ status: 'pending' }),
-      PurchaseOrder.find()
-        .sort({ createdAt: -1 })
-        .limit(5)
-        .populate('supplier', 'name'),
-      SalesOrder.find()
-        .sort({ createdAt: -1 })
-        .limit(5)
-        .populate('customer', 'name')
-    ]);
-
-    // Get monthly sales data
-    const sixMonthsAgo = new Date();
-    sixMonthsAgo.setMonth(sixMonthsAgo.getMonth() - 6);
-
-    const monthlySales = await SalesOrder.aggregate([
-      {
-        $match: {
-          createdAt: { $gte: sixMonthsAgo },
-          status: { $in: ['delivered', 'shipped'] }
-        }
-      },
-      {
-        $group: {
-          _id: { $month: '$createdAt' },
-          total: { $sum: '$total' },
-          count: { $sum: 1 }
-        }
-      },
-      { $sort: { '_id': 1 } }
-    ]);
-
-    res.json({
-      counts: {
-        customers: totalCustomers,
-        suppliers: totalSuppliers,
-        stockItems: totalStockItems,
-        lowStock: lowStockItems,
-        pendingPOs,
-        pendingSOs
-      },
-      recentActivity: {
-        purchaseOrders: recentPOs,
-        salesOrders: recentSOs
-      },
-      monthlySales,
-      timestamp: new Date()
-    });
+    const data = excelParser.getCurrentData();
+    res.json({ success: true, data: data.dashboardStats || {} });
   } catch (error) {
-    res.status(500).json({ message: error.message });
+    console.error('Error fetching dashboard stats:', error);
+    res.status(500).json({ success: false, message: 'Error fetching dashboard stats' });
   }
 };
 
-// Helper function to get default widgets based on role
-const getDefaultWidgets = (role) => {
-  const commonWidgets = [
-    {
-      id: 'stats',
-      type: 'stats',
-      title: 'Quick Stats',
-      position: { x: 0, y: 0, w: 6, h: 2 }
-    },
-    {
-      id: 'recent-purchases',
-      type: 'recent-purchases',
-      title: 'Recent Purchase Orders',
-      position: { x: 0, y: 2, w: 6, h: 4 }
-    },
-    {
-      id: 'recent-sales',
-      type: 'recent-sales',
-      title: 'Recent Sales Orders',
-      position: { x: 6, y: 2, w: 6, h: 4 }
+const getCapacityData = async (req, res) => {
+  try {
+    const data = excelParser.getCurrentData();
+    res.json({ success: true, data: data.capacityUtilization || [] });
+  } catch (error) {
+    console.error('Error fetching capacity data:', error);
+    res.status(500).json({ success: false, message: 'Error fetching capacity data' });
+  }
+};
+
+const getMachineStatus = async (req, res) => {
+  try {
+    const data = excelParser.getCurrentData();
+    res.json({ success: true, data: data.machineStatus || [] });
+  } catch (error) {
+    console.error('Error fetching machine status:', error);
+    res.status(500).json({ success: false, message: 'Error fetching machine status' });
+  }
+};
+
+const getDowntime = async (req, res) => {
+  try {
+    const data = excelParser.getCurrentData();
+    res.json({ success: true, data: data.downtime || [] });
+  } catch (error) {
+    console.error('Error fetching downtime:', error);
+    res.status(500).json({ success: false, message: 'Error fetching downtime' });
+  }
+};
+
+const getAttendance = async (req, res) => {
+  try {
+    const data = excelParser.getCurrentData();
+    res.json({ success: true, data: data.attendance || { shiftA: {}, shiftB: {} } });
+  } catch (error) {
+    console.error('Error fetching attendance:', error);
+    res.status(500).json({ success: false, message: 'Error fetching attendance' });
+  }
+};
+
+const getHourlyProduction = async (req, res) => {
+  try {
+    const data = excelParser.getCurrentData();
+    const { machine } = req.query;
+    let production = data.hourlyProduction || [];
+    if (machine && machine !== 'all') {
+      production = production.filter(p => p.machine === machine);
     }
-  ];
-
-  if (role === 'admin') {
-    commonWidgets.push({
-      id: 'monthly-sales',
-      type: 'chart',
-      title: 'Monthly Sales',
-      position: { x: 6, y: 0, w: 6, h: 2 }
-    });
+    res.json({ success: true, data: production });
+  } catch (error) {
+    console.error('Error fetching hourly production:', error);
+    res.status(500).json({ success: false, message: 'Error fetching hourly production' });
   }
-
-  if (role === 'manager') {
-    commonWidgets.push({
-      id: 'low-stock',
-      type: 'low-stock',
-      title: 'Low Stock Alert',
-      position: { x: 6, y: 0, w: 6, h: 2 }
-    });
-  }
-
-  return commonWidgets;
 };
 
-module.exports = {
-  getDashboard,
-  updateLayout,
-  getDashboardStats,
+const getTroubleReports = async (req, res) => {
+  try {
+    const data = excelParser.getCurrentData();
+    res.json({ success: true, data: data.troubleReports || [] });
+  } catch (error) {
+    console.error('Error fetching trouble reports:', error);
+    res.status(500).json({ success: false, message: 'Error fetching trouble reports' });
+  }
+};
+
+const getOTIF = async (req, res) => {
+  try {
+    const data = excelParser.getCurrentData();
+    res.json({ success: true, data: data.otif || {} });
+  } catch (error) {
+    console.error('Error fetching OTIF:', error);
+    res.status(500).json({ success: false, message: 'Error fetching OTIF' });
+  }
+};
+
+const getProductionSummary = async (req, res) => {
+  try {
+    const data = excelParser.getCurrentData();
+    const { dashboardStats, hourlyProduction, capacityUtilization } = data;
+    
+    const summary = {
+      totalProduction: dashboardStats?.production?.hourlyTotal || 0,
+      avgUtilization: dashboardStats?.production?.avgUtilization || 0,
+      totalMachines: dashboardStats?.machines?.total || 0,
+      runningMachines: dashboardStats?.machines?.running || 0,
+      attendanceRate: dashboardStats?.attendance?.rate || 0,
+      otifRate: data.otif?.overallOTIF || 0,
+      topPerformers: hourlyProduction?.slice(0, 5).map(p => ({
+        machine: p.machine,
+        output: p.total
+      })) || []
+    };
+    
+    res.json({ success: true, data: summary });
+  } catch (error) {
+    console.error('Error fetching production summary:', error);
+    res.status(500).json({ success: false, message: 'Error fetching production summary' });
+  }
+};
+
+const getRealTimeMetrics = async (req, res) => {
+  try {
+    const data = excelParser.getCurrentData();
+    const { dashboardStats, machineStatus, downtime } = data;
+    
+    const metrics = {
+      timestamp: new Date().toISOString(),
+      machines: {
+        running: dashboardStats?.machines?.running || 0,
+        idle: dashboardStats?.machines?.idle || 0,
+        breakdown: dashboardStats?.machines?.breakdown || 0,
+        total: dashboardStats?.machines?.total || 0,
+        availability: dashboardStats?.machines?.availability || 0
+      },
+      production: {
+        currentOutput: dashboardStats?.production?.hourlyTotal || 0,
+        efficiency: dashboardStats?.production?.avgUtilization || 0
+      },
+      quality: {
+        troubleReports: dashboardStats?.troubleReports?.total || 0,
+        criticalIssues: dashboardStats?.troubleReports?.critical || 0
+      },
+      downtime: {
+        totalHours: dashboardStats?.downtime?.total || 0,
+        events: dashboardStats?.downtime?.events || 0,
+        recent: downtime?.slice(0, 5) || []
+      }
+    };
+    
+    res.json({ success: true, data: metrics });
+  } catch (error) {
+    console.error('Error fetching real-time metrics:', error);
+    res.status(500).json({ success: false, message: 'Error fetching real-time metrics' });
+  }
+};
+
+module.exports = { 
+  getDashboardStats, 
+  getCapacityData, 
+  getMachineStatus, 
+  getDowntime, 
+  getAttendance, 
+  getHourlyProduction, 
+  getTroubleReports,
+  getOTIF,
+  getProductionSummary,
+  getRealTimeMetrics
 };

@@ -1,0 +1,366 @@
+[
+  {
+    "id": "1774165912630",
+    "filename": "P1 Hourly Monitoring_1fa0346e-baf1-4482-8fd7-a6e21bc1ea2c (1).xlsx",
+    "size": 436903,
+    "uploadedBy": 3,
+    "uploadedAt": "2026-03-22T07:51:52.630Z",
+    "status": "success",
+    "stats": {
+      "machineCount": 87,
+      "downtimeCount": 49,
+      "capacityCount": 8
+    }
+  },
+  {
+    "id": "1774165898190",
+    "filename": "Book1.xlsx",
+    "size": 81114,
+    "uploadedBy": 3,
+    "uploadedAt": "2026-03-22T07:51:38.190Z",
+    "status": "success",
+    "stats": {
+      "machineCount": 10,
+      "downtimeCount": 6,
+      "capacityCount": 0
+    }
+  },
+  {
+    "id": "1774165877301",
+    "filename": "P1 Hourly Monitoring_1fa0346e-baf1-4482-8fd7-a6e21bc1ea2c.xlsx",
+    "size": 403121,
+    "uploadedBy": 3,
+    "uploadedAt": "2026-03-22T07:51:17.301Z",
+    "status": "success",
+    "stats": {
+      "machineCount": 87,
+      "downtimeCount": 49,
+      "capacityCount": 8
+    }
+  },
+  {
+    "id": "1774165868855",
+    "filename": "P1 Hourly Monitoring_1fa0346e-baf1-4482-8fd7-a6e21bc1ea2c (1).xlsx",
+    "size": 437218,
+    "uploadedBy": 3,
+    "uploadedAt": "2026-03-22T07:51:08.855Z",
+    "status": "success",
+    "stats": {
+      "machineCount": 87,
+      "downtimeCount": 49,
+      "capacityCount": 8
+    }
+  },
+  {
+    "id": "1774165696017",
+    "filename": "P1 Hourly Monitoring_1fa0346e-baf1-4482-8fd7-a6e21bc1ea2c (1).xlsx",
+    "size": 610089,
+    "uploadedBy": 3,
+    "uploadedAt": "2026-03-22T07:48:16.017Z",
+    "status": "success",
+    "stats": {
+      "machineCount": 87,
+      "downtimeCount": 49,
+      "capacityCount": 8
+    }
+  },
+  {
+    "id": "1774164979530",
+    "filename": "Book1.xlsx",
+    "size": 81114,
+    "uploadedBy": 3,
+    "uploadedAt": "2026-03-22T07:36:19.530Z",
+    "status": "success",
+    "stats": {
+      "machineCount": 10,
+      "downtimeCount": 6,
+      "capacityCount": 0
+    }
+  },
+  {
+    "id": "1774164900360",
+    "filename": "P1 Hourly Monitoring_1fa0346e-baf1-4482-8fd7-a6e21bc1ea2c (1).xlsx",
+    "size": 610089,
+    "uploadedBy": 3,
+    "uploadedAt": "2026-03-22T07:35:00.360Z",
+    "status": "success",
+    "stats": {
+      "machineCount": 87,
+      "downtimeCount": 49,
+      "capacityCount": 8
+    }
+  },
+  {
+    "id": "1774164868349",
+    "filename": "Book1.xlsx",
+    "size": 81114,
+    "uploadedBy": 3,
+    "uploadedAt": "2026-03-22T07:34:28.349Z",
+    "status": "success",
+    "stats": {
+      "machineCount": 10,
+      "downtimeCount": 6,
+      "capacityCount": 0
+    }
+  },
+  {
+    "id": "1774164831156",
+    "filename": "P1 Hourly Monitoring_1fa0346e-baf1-4482-8fd7-a6e21bc1ea2c (1).xlsx",
+    "size": 610089,
+    "uploadedBy": 3,
+    "uploadedAt": "2026-03-22T07:33:51.156Z",
+    "status": "success",
+    "stats": {
+      "machineCount": 87,
+      "downtimeCount": 49,
+      "capacityCount": 8
+    }
+  },
+  {
+    "id": "1774164818964",
+    "filename": "Hourly_Monitoring_Template.xlsx",
+    "size": 6008,
+    "uploadedBy": 3,
+    "uploadedAt": "2026-03-22T07:33:38.964Z",
+    "status": "success",
+    "stats": {
+      "machineCount": 10,
+      "downtimeCount": 6,
+      "capacityCount": 0
+    }
+  },
+  {
+    "id": "1774164756105",
+    "filename": "P1 Hourly Monitoring_1fa0346e-baf1-4482-8fd7-a6e21bc1ea2c (1).xlsx",
+    "size": 610089,
+    "uploadedBy": 3,
+    "uploadedAt": "2026-03-22T07:32:36.105Z",
+    "status": "success",
+    "stats": {
+      "machineCount": 87,
+      "downtimeCount": 49,
+      "capacityCount": 8
+    }
+  },
+  {
+    "id": "1774164737452",
+    "filename": "Hourly_Monitoring_Template.xlsx",
+    "size": 6008,
+    "uploadedBy": 3,
+    "uploadedAt": "2026-03-22T07:32:17.452Z",
+    "status": "success",
+    "stats": {
+      "machineCount": 10,
+      "downtimeCount": 6,
+      "capacityCount": 0
+    }
+  },
+  {
+    "id": "1774164717554",
+    "filename": "Hourly_Monitoring_Template.xlsx",
+    "size": 6008,
+    "uploadedBy": 3,
+    "uploadedAt": "2026-03-22T07:31:57.554Z",
+    "status": "success",
+    "stats": {
+      "machineCount": 10,
+      "downtimeCount": 6,
+      "capacityCount": 0
+    }
+  },
+  {
+    "id": "1774163972256",
+    "filename": "P1 Hourly Monitoring_1fa0346e-baf1-4482-8fd7-a6e21bc1ea2c (1).xlsx",
+    "size": 610089,
+    "uploadedBy": 3,
+    "uploadedAt": "2026-03-22T07:19:32.256Z",
+    "status": "success",
+    "stats": {
+      "machineCount": 87,
+      "downtimeCount": 49,
+      "capacityCount": 8
+    }
+  },
+  {
+    "id": "1774163238184",
+    "filename": "P1 Hourly Monitoring_1fa0346e-baf1-4482-8fd7-a6e21bc1ea2c (1).xlsx",
+    "size": 610089,
+    "uploadedBy": 3,
+    "uploadedAt": "2026-03-22T07:07:18.184Z",
+    "status": "success",
+    "stats": {
+      "machineCount": 87,
+      "downtimeCount": 49,
+      "capacityCount": 8
+    }
+  },
+  {
+    "id": "1774162387783",
+    "filename": "P1 Hourly Monitoring_1fa0346e-baf1-4482-8fd7-a6e21bc1ea2c (1).xlsx",
+    "size": 610089,
+    "uploadedBy": 3,
+    "uploadedAt": "2026-03-22T06:53:07.783Z",
+    "status": "success",
+    "stats": {
+      "machineCount": 87,
+      "downtimeCount": 0,
+      "capacityCount": 8
+    }
+  },
+  {
+    "id": "1774162380586",
+    "filename": "Book2.xlsx",
+    "size": 52145,
+    "uploadedBy": 3,
+    "uploadedAt": "2026-03-22T06:53:00.586Z",
+    "status": "success",
+    "stats": {
+      "machineCount": 10,
+      "downtimeCount": 0,
+      "capacityCount": 0
+    }
+  },
+  {
+    "id": "1774162372963",
+    "filename": "P1 Hourly Monitoring_1fa0346e-baf1-4482-8fd7-a6e21bc1ea2c.xlsx",
+    "size": 403121,
+    "uploadedBy": 3,
+    "uploadedAt": "2026-03-22T06:52:52.963Z",
+    "status": "success",
+    "stats": {
+      "machineCount": 87,
+      "downtimeCount": 0,
+      "capacityCount": 8
+    }
+  },
+  {
+    "id": "1774162344225",
+    "filename": "Book2.xlsx",
+    "size": 52145,
+    "uploadedBy": 3,
+    "uploadedAt": "2026-03-22T06:52:24.225Z",
+    "status": "success",
+    "stats": {
+      "machineCount": 10,
+      "downtimeCount": 0,
+      "capacityCount": 0
+    }
+  },
+  {
+    "id": "1774162270459",
+    "filename": "P1 Hourly Monitoring_1fa0346e-baf1-4482-8fd7-a6e21bc1ea2c (1).xlsx",
+    "size": 610089,
+    "uploadedBy": 3,
+    "uploadedAt": "2026-03-22T06:51:10.459Z",
+    "status": "success",
+    "stats": {
+      "machineCount": 87,
+      "downtimeCount": 0,
+      "capacityCount": 8
+    }
+  },
+  {
+    "id": "1774161837406",
+    "filename": "P1 Hourly Monitoring_1fa0346e-baf1-4482-8fd7-a6e21bc1ea2c (1).xlsx",
+    "size": 610089,
+    "uploadedBy": 3,
+    "uploadedAt": "2026-03-22T06:43:57.406Z",
+    "status": "success",
+    "stats": {
+      "machineCount": 87,
+      "downtimeCount": 0,
+      "capacityCount": 8
+    }
+  },
+  {
+    "id": "1774161663535",
+    "filename": "P1 Hourly Monitoring_1fa0346e-baf1-4482-8fd7-a6e21bc1ea2c (1).xlsx",
+    "size": 610089,
+    "uploadedBy": 3,
+    "uploadedAt": "2026-03-22T06:41:03.535Z",
+    "status": "success",
+    "stats": {
+      "machineCount": 87,
+      "downtimeCount": 0,
+      "capacityCount": 8
+    }
+  },
+  {
+    "id": "1774161315482",
+    "filename": "P1 Hourly Monitoring_1fa0346e-baf1-4482-8fd7-a6e21bc1ea2c (1).xlsx",
+    "size": 610089,
+    "uploadedBy": 3,
+    "uploadedAt": "2026-03-22T06:35:15.482Z",
+    "status": "success",
+    "stats": {
+      "machineCount": 87,
+      "downtimeCount": 0,
+      "capacityCount": 8
+    }
+  },
+  {
+    "id": "1774160615601",
+    "filename": "P1 Hourly Monitoring_1fa0346e-baf1-4482-8fd7-a6e21bc1ea2c (1).xlsx",
+    "size": 610089,
+    "uploadedBy": 3,
+    "uploadedAt": "2026-03-22T06:23:35.601Z",
+    "status": "success",
+    "stats": {
+      "machineCount": 87,
+      "downtimeCount": 0,
+      "capacityCount": 8
+    }
+  },
+  {
+    "id": "1774160133635",
+    "filename": "P1 Hourly Monitoring_1fa0346e-baf1-4482-8fd7-a6e21bc1ea2c (1).xlsx",
+    "size": 610089,
+    "uploadedBy": 3,
+    "uploadedAt": "2026-03-22T06:15:33.635Z",
+    "status": "success",
+    "stats": {
+      "machineCount": 87,
+      "downtimeCount": 0,
+      "capacityCount": 8
+    }
+  },
+  {
+    "id": "1774160075837",
+    "filename": "P1 Hourly Monitoring_1fa0346e-baf1-4482-8fd7-a6e21bc1ea2c (1).xlsx",
+    "size": 610089,
+    "uploadedBy": 3,
+    "uploadedAt": "2026-03-22T06:14:35.837Z",
+    "status": "success",
+    "stats": {
+      "machineCount": 87,
+      "downtimeCount": 0,
+      "capacityCount": 8
+    }
+  },
+  {
+    "id": "1774160068877",
+    "filename": "P1 Hourly Monitoring_1fa0346e-baf1-4482-8fd7-a6e21bc1ea2c.xlsx",
+    "size": 403121,
+    "uploadedBy": 3,
+    "uploadedAt": "2026-03-22T06:14:28.877Z",
+    "status": "success",
+    "stats": {
+      "machineCount": 87,
+      "downtimeCount": 0,
+      "capacityCount": 8
+    }
+  },
+  {
+    "id": "1774159380801",
+    "filename": "P1 Hourly Monitoring_1fa0346e-baf1-4482-8fd7-a6e21bc1ea2c.xlsx",
+    "size": 403121,
+    "uploadedBy": 3,
+    "uploadedAt": "2026-03-22T06:03:00.801Z",
+    "status": "success",
+    "stats": {
+      "machineCount": 87,
+      "downtimeCount": 0,
+      "capacityCount": 8
+    }
+  }
+]

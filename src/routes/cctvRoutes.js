@@ -1,27 +1,29 @@
+// src/routes/cctvRoutes.js
 const express = require('express');
 const router = express.Router();
+const { protect, authorize } = require('../middleware/authMiddleware');
 const {
   getCameras,
   getCameraById,
   createCamera,
   updateCamera,
   deleteCamera,
-  addRecording,
-  updateCameraStatus,
+  getCameraStream,
+  toggleCamera,
+  getCameraStatus
 } = require('../controllers/cctvController');
-const { protect, authorize } = require('../middleware/authMiddleware');
 
-router.route('/')
-  .get(protect, getCameras)
-  .post(protect, authorize('admin'), createCamera);
+// All routes require authentication
+router.use(protect);
 
-router.put('/:id/status', protect, authorize('admin'), updateCameraStatus);
-
-router.route('/:id')
-  .get(protect, getCameraById)
-  .put(protect, authorize('admin'), updateCamera)
-  .delete(protect, authorize('admin'), deleteCamera);
-
-router.post('/:id/recordings', protect, authorize('admin'), addRecording);
+// CCTV endpoints
+router.get('/', getCameras);
+router.get('/status', getCameraStatus);
+router.get('/:id', getCameraById);
+router.get('/:id/stream', getCameraStream);
+router.post('/', authorize('admin', 'security'), createCamera);
+router.put('/:id', authorize('admin', 'security'), updateCamera);
+router.patch('/:id/toggle', authorize('admin', 'security'), toggleCamera);
+router.delete('/:id', authorize('admin'), deleteCamera);
 
 module.exports = router;
